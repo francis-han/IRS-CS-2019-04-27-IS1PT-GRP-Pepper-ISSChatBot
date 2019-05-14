@@ -1,0 +1,445 @@
+[
+	{
+		"Graduate Programme": "Graduate Diploma in Systems Analysis",
+		"Modules": {
+			"Introduction": "The GDipSA curriculum is designed with senior executives of prominent IT industry players, so you can be assured that the skills and knowledge taught are relevant and up-to-date. The IT industry in Singapore evolves at a fast pace and it is important to us that our students are equipped with leading edge skills and knowledge for their future IT careers.",
+			"Course Components": [],
+			"Focus Areas": [],
+			"Items": [
+				{
+					"name": "Methodology",
+					"Course Component": "",
+					"Focus Area": "", 
+					"Description": "Be guided to perform the tasks and produce the deliverables in the various phases of an application development life cycle taking into consideration of iOT, mobile and smart devices through on-the-job training in a project team. User experience design concepts and Web & Mobile user interface design concepts will also be covered.",
+					"Courses": [
+						"Application Development Life Cycle"
+					]
+				},
+				{
+					"name": "Technology",
+					"Course Component": "",
+					"Focus Area": "",
+					"Description": "Be introduced to the various hardware and software components that make up a distributed computing infrastructure as the foundation to cloud computing.",
+					"Courses": [
+						"Distributed Computing Infrastructure"
+					]
+				},
+				{
+					"name": "Databases",
+					"Course Component": "",
+					"Focus Area": "",
+					"Description": "Learn the functions and purposes of databases in IT applications as well as the role and importance of SQL as a database manipulation, definition and control language.",
+					"Courses": [
+						"SQL Programming with consideration of Big Data"
+					]
+				},
+				{
+					"name": "Programming – C# Suite",
+					"Course Component": "",
+					"Focus Area": "",
+					"Description": "Build the foundation for programming which is an essential skill for the designing and developing of system of records.",
+					"Courses": [
+						"Fundamentals of Programming using C#",
+						"Object Oriented Programming using C#",
+						"User Interface Development with Visual Studio.NET and C#",
+						"Developing Enterprise Systems with .NET Framework",
+						"Designing Internet application using ASP.NET",
+						"Crafting the mobile-friendly user interface tailored for Internet platform",
+						"Internet programming with Microsoft .NET Framework"
+					]
+				},
+				{
+					"name": "Programming - Java Suite",
+					"Course Component": "",
+					"Focus Area": "",
+					"Description": "Introducing Web development using Java as the vehicle with consideration of data analytics which a characteristic of system of engagement.",
+					"Courses": [
+						"Java Programming",
+						"Web application design using Java",
+						"Synchronous and asynchronous web stack using SpringBoot",
+						"Client side programming using React.js",
+						"Big data analytics using Sprint Cloud Data Flow."
+					]
+				},
+				{
+					"name": "Programming - Python Suite",
+					"Course Component": "",
+					"Focus Area": "",
+					"Description": "Introducing system of insights using Python programming as the vehicle with consideration machine learning.",
+					"Courses": [
+						"Python programming",
+						"Integrating and using machine learning in system of insights"
+					]
+				},
+				{
+					"name": "Full stack Solution Development",
+					"Course Component": "",
+					"Focus Area": "",
+					"Description": "Understand the development of web application using open source platform.",
+					"Courses": [
+						"Programming with JAVAScript, AngularJS and NodeJS"
+					]
+				},
+				{
+					"name": "Project Management",
+					"Course Component": "",
+					"Focus Area": "",
+					"Description": "Learn the various types of IT professions and the organisation structure of a typical company’s IT department. Concepts from agile to DevOps to continuous delivery will also be introduced.",
+					"Courses": [
+						"Roles and Responsibilities",
+						"Project Planning and Control",
+						"Change Management and Control"
+					]
+				},
+				{
+					"name": "Mobile Solution Development",
+					"Course Component": "",
+					"Description": "Grasp mobile application development using HTML5 for Mobile Web and Android for Native App.",
+					"Courses": [
+						"Designing mobile applications",
+						"Crafting the mobile user interface",
+						"Programming on HTML5 programming for Mobile Web and Android programming for Native App"
+					]
+				}
+			]
+		}
+	},
+	{
+		"Graduate Programme": "Master of Technology in Enterprise Business Analytics",
+		"Modules": {
+			"Introduction": "MTech EBAC candidates must successfully complete the following course components to be awarded the degree: Fundamental - Complete two Mandatory Topics, Specialist - Complete any two of four Topics",
+			"Course Components": [
+					{
+						"name": "Fundamental Analytics Areas",
+						"description": ""
+					},	
+					{	"name": "Specialist Analytics Areas",
+						"description": ""
+					}
+			],
+			"Focus Areas": [],
+			"Items": [
+				{
+					"name": "Analytics Project Management and Delivery",
+					"Course Component": "Fundamental Analytics Areas",
+					"Focus Area": "",
+					"Description": "Be guided to perform the tasks and produce the deliverables in the various phases of an application development life cycle taking into consideration of iOT, mobile and smart devices through on-the-job training in a project team. User experience design concepts and Web & Mobile user interface design concepts will also be covered.",
+					"Courses": [
+						"Data Analytics Process and Best Practices",
+						"Data Storytelling",
+						"Data Governance & Protection",
+						"Managing Business Analytics Projects"
+					]
+				},
+				{
+					"name": "Core Analytics Techniques",
+					"Course Component": "Fundamental Analytics Areas",
+					"Focus Area": "",
+					"Description": "Students will learn the foundation skills to understand, design and solve analytics problems in the industry involving structured and unstructured data. It is a course which prepares the participants to embark upon the journey to become a data scientist in due course. ",
+					"Courses": [
+						"Data Analytics Process and Best Practices",
+						"Statistics Bootcamp",
+						"Predictive Analytics – Insights of Trends and Irregularities",
+						"Text Analytics",
+						"Recommender Systems"
+					]
+				},
+				{
+					"name": "Customer Analytics",
+					"Course Component": "Specialist Analytics Areas",
+					"Focus Area": "",
+					"Description": "Students will be equipped with the skills to manage the customer data and build analytics solutions for customer relationship management. The course will enable them to apply techniques for targeted customer marketing, to reduce churn, increase customer satisfaction and loyalty and increase profitability.",
+					"Courses": [
+						"Customer Analytics",
+						"Advanced Customer Analytics",
+						"Campaign Analytics"
+					]
+				},
+				{
+					"name": "Big Data Processing",
+					"Course Component": "Specialist Analytics Areas",
+					"Focus Area": "",
+					"Description": "Students will learn various aspects of data engineering while building resilient distributed datasets. Participants will learn to apply key practices, identify multiple data sources appraised against their business value, design the right storage, and implement proper access model(s). Finally, participants will build a scalable data pipeline solution composed of pluggable component architecture, based on the combination of requirements in a vendor/technology agnostic manner. Participants will familiarize themselves on working with Spark platform along with additional focus on query and streaming libraries.",
+					"Courses": [
+						"Feature Engineering & Analytics using IoT Data",
+						"Graph & Web Mining",
+						"Big Data Engineering"
+					]
+				},
+				{
+					"name": "Practical Language Processing",
+					"Course Component": "Specialist Analytics Areas",
+					"Focus Area": "",
+					"Description": "Students will be taught advanced skills in practical language processing. This includes fundamental text processing, text analytics, deep learning techniques and their application in sentiment mining and chatbots development.",
+					"Courses": [
+						"Text Analytics",
+						"New Media and Sentiment Mining",
+						"Text Processing using Machine Learning",
+						"Conversational Interfaces"
+					]
+				},
+				{
+					"name": "Advanced Predictive Modelling Techniques",
+					"Course Component": "Specialist Analytics Areas",
+					"Focus Area": "",
+					"Description": "Students will be taught the advanced concepts of predictive modeling and Time Series Forecasting and their application in few special areas like Health Care & Service Industry in addition to other domains like Public Services, IT Services, Finance, Airlines, Logistics, Transport, Hotel & Tourism Industries. The topics include GLM, ARIMA & SARIMA, Transfer Functions, Survival Analysis, Image Analysis for Health Care, Management of Health & Medical Data, Service Quality Frame Work, Service Process Improvement Techniques etc.",
+					"Courses": [
+						"Service Analytics",
+						"Generalized Predictive Modeling & Forecasting",
+						"Health Analytics"
+					]
+				}
+			]
+		}
+	},
+	{
+		"Graduate Programme": "Master of Technology in Digital Leadership",
+		"Modules": {
+			"Introduction": "The NUS Master of Technology in Digital Leadership programme builds on a comprehensive curriculum and delivered through executive style teaching and peer learning. Candidates must successfully complete all the 10 course modules as well as deliver a digital leadership capstone project. Students are evaluated through a combination of continuous assessments, class participation, case studies and output from the capstone project. The programme is a 44 modular credit (MC) Master degree based on four major study areas: Practice of Digital Business, Digital Transformation, Digital Leadership & People and Digital Leadership Capstone. The curriculum strikes a balance between building deep leadership capabilities and functional skills and will be complemented by activities outside the classroom to reinforce learning.",
+			"Course Components": [],
+			"Focus Areas": [
+					{
+						"name": "Practice of Digital Business",
+						"description": "Learn what is digital business and the different models of digital transformation and innovation. Analyse business models of platforms and software disruptors with case studies from diverse industries and how digital business create, deliver, capture and defend value. Understand digital agility and change imperatives for competitive advantage. Explore what are the emerging trends and the underlying economics of market disruptions, innovation and technologies"
+					},
+					{
+						"name": "Digital Transformation",
+						"description": "Embark on the journey to create and transform into digital business. Analyse through strategic thinking and foresight what transformation means for the business, what drives innovation by design and what it takes to win in a digital age. Use relevant frameworks to identify key areas to transform including integrated strategy, core processes and enabling technologies. Understand practical approaches to move from a legacy to a digital business. Learn the “how-to” with design of product portfolio, operating model and digital architecture."
+					},
+					{
+						"name": "Digital Leadership & People",
+						"description": "Develop leaders with strategic thinking and team building skills. Understand the type of talents, competencies and capabilities needed to lead a cross organisational digital business strategy and transformation effort. Develop the compact needed to establish and support high performance transformation team and to sustain the digital culture. Learn about leadership and challenges in managing complexity and digital governance."
+					},
+					{
+						"name": "Digital Leadership Capstone",
+						"description": "A highlight of the programme is the Digital Leadership Capstone project that bring together all disciplines that students have encountered in the programme. Students reflect, apply and synthesise the knowledge, skills and techniques that they have learnt in class and apply to a real-life organisation. They will integrate what they have learnt with how they, as the Digital Leader, will have to perform digital business transformation and solve real-world problems for a target organisation. Students will work in groups and are mentored by industry advisors to deliver the capstone project. The capstone project extends over 6 and 9 months for the full-time and part-time programmes respectively."
+					}
+			],
+			"Items": [
+				{
+					"name": "Digital Organisation Models",
+					"Course Component": "",
+					"Focus Area": "Practice of Digital Business",
+					"Description": "",
+					"Courses": []
+				},
+				{
+					"name": "Digital Agility & Change Leadership",
+					"Course Component": "",
+					"Focus Area": "Practice of Digital Business",
+					"Description": "",
+					"Courses": []
+				},
+				{
+					"name": "Innovation by Design",
+					"Course Component": "",
+					"Focus Area": "Practice of Digital Business",
+					"Description": "",
+					"Courses": []
+				},
+				{
+					"name": "Strategic Thinking & Foresight",
+					"Course Component": "",
+					"Focus Area": "Digital Transformation",
+					"Description": "",
+					"Courses": []
+				},
+				{
+					"name": "Digital Business Strategy",
+					"Course Component": "",
+					"Focus Area": "Digital Transformation",
+					"Description": "",
+					"Courses": []
+				},
+				{
+					"name": "Mastering Digital Architecture",
+					"Course Component": "",
+					"Focus Area": "Digital Transformation",
+					"Description": "",
+					"Courses": []
+				},
+				{
+					"name": "Talent & Leadership Pathways",
+					"Course Component": "",
+					"Focus Area": "Digital Leadership & People",
+					"Description": "",
+					"Courses": []
+				},
+				{
+					"name": "Managing Digitalisation Complexity",
+					"Course Component": "",
+					"Focus Area": "Digital Leadership & People",
+					"Description": "",
+					"Courses": []
+				},
+				{
+					"name": "Digital Governance",
+					"Course Component": "",
+					"Focus Area": "Digital Leadership & People",
+					"Description": "",
+					"Courses": []
+				}
+			]
+		}
+	},
+	{
+		"Graduate Programme": "Master of Technology in Knowledge Engineering",
+		"Modules": {
+			"Introduction": "NUS-ISS MTech KE is now MTech Intelligent Systems!",
+			"Course Components": [],
+			"Focus Areas": [],
+			"Items": []
+		}
+	},
+	{
+		"Graduate Programme": "Master of Technology in Intelligent Systems",
+		"Modules": {
+			"Introduction": "MTech IS candidates must successfully complete the following course components to be awarded the degree: Fundamental Modules - Complete 2 Modules, Specialist Modules - Complete any 2 Modules selected from 4.",
+			"Course Components": [
+				{
+					"name": "Fundamental Modules",
+					"description": ""
+				},
+				{
+					"name": "Specialist Modules",
+					"description": ""
+				}
+			],
+			"Focus Areas": [],
+			"Items": [
+				{
+					"name": "Intelligent Reasoning Systems",
+					"Focus Area": "",
+					"Course Component": "Fundamental Modules",
+					"Description": "Students will be taught how to build Intelligent Systems that solve problems by computational reasoning using captured domain knowledge and data. Example applications include, question answering systems such as IBM's Watson, personal assistants such as Amazon’s Alexa Skills and game-playing systems such as Google's AlphaGo.",
+					"Courses": [
+						"Machine Reasoning",
+						"Cognitive Systems",
+						"Reasoning Systems"
+					]
+				},
+				{
+					"name": "Pattern Recognition Systems",
+					"Focus Area": "",
+					"Course Component": "Fundamental Modules",
+					"Description": "Students will be taught how to design and build systems that make decisions by recognising complex patterns in data. Examples are robotic systems and smart city applications that take as input diverse sensor data streams. These systems will utilise the latest pattern recognition, machine learning and sensor signal processing techniques. ",
+					"Courses": [
+						"Problem Solving using Pattern Recognition",
+						"Intelligent Sensing and Sense Making",
+						"Pattern Recognition and Machine Learning Systems"
+					]
+				},
+				{
+					"name": "Intelligent Robotic Systems",
+					"Focus Area": "",
+					"Course Component": "Specialist Modules",
+					"Description": "Students will be taught the skills required to build Intelligent Systems that will help control the advanced robotic systems, autonomous vehicles and industrial automation that will be central to Industry 4.0.",
+					"Courses": [
+						"Robotic Systems",
+						"Developing Autonomous Robots & Vehicles",
+						"Human-Robot System Engineering"
+					]
+				},
+				{
+					"name": "Intelligent Sensing Systems",
+					"Focus Area": "",
+					"Course Component": "Specialist Modules",
+					"Description": "Students will be taught the skills and techniques required to build Intelligent Sensing Systems that are able to make decisions based on visual and audio sensory signals, including human speech. Example systems include crowd monitoring, facial recognition, medical sensing, robot and vehicle control.",
+					"Courses": [
+						"Vision Systems",
+						"Spatial Reasoning from Sensor Data",
+						"Speech and Sound Sensing Systems"
+					]
+				},
+				{
+					"name": "Intelligent Software Agents",
+					"Focus Area": "",
+					"Course Component": "Specialist Modules",
+					"Description": "Students will be taught how to build intelligent software agents that can act on behalf of, and replicate the actions of, humans in commercial and business transactions as well as automate business processes. Example systems include intelligent personal assistants, intelligent shopping agents as well as intelligent agents performing robotic process automation. ",
+					"Courses": [
+						"Intelligent Process Automation",
+						"Software Robots",
+						"Self-Learning Systems"
+					]
+				}
+			]
+		}
+	},
+	{
+		"Graduate Programme": "Master of Technology in Software Engineering",
+		"Modules": {
+			"Introduction": "MTech SE candidates must successfully complete the following course components to be awarded the degree: Fundamental - Complete 1 Certificate, Specialist - Complete any 2 of 4 Certificates.",
+			"Course Components": [
+				{
+					"name": "Fundamental Software Engineering Areas",
+					"description": ""
+				},
+				{
+					"name": "Specialist Software Engineering Areas",
+					"description": ""
+				}
+			],
+			"Focus Areas": [],
+			"Items": [
+				{
+					"name": "Architecting Scalable Systems",
+					"Focus Area": "",
+					"Course Component": "Fundamental Software Engineering Areas",
+					"Description": "Students will learn how to architect scalable, robust and reliable ubiquitous systems using the latest Cloud-based technology. Techniques to automate and engineer DevOps pipelines and architecting platforms will also be covered. Students will also focus on how to architect the back-end support for large systems and platforms. ",
+					"Courses": [
+						"Cloud Native Solution Design",
+						"Architecting Software Solutions",
+						"DevOps Engineering and Automation",
+						"Platform Engineering"
+					]
+				},
+				{
+					"name": "Architecting Smart Systems",
+					"Focus Area": "",
+					"Course Component": "Specialist Software Engineering Areas",
+					"Description": "Students will learn skills and techniques required to engineer end-to-end Intelligent Smart Systems. Topics in architecting smart IoT platforms and systems that are scalable will be covered. Students will learn to design, develop and integrate systems that make sense of data from a variety of sensors and edge devices. Students will also learn to create interfaces to smart systems that are apt for interacting with humans in intelligent manners.",
+					"Courses": [
+						"Architecting IoT Solutions",
+						"Designing Intelligent Edge Computing",
+						"Humanizing Smart Systems"
+					]
+				},
+				{
+					"name": "Designing and Managing Products and Platforms",
+					"Focus Area": "",
+					"Course Component": "Specialist Software Engineering Areas",
+					"Description": "Students will learn how to design and manage software products and platforms. The key components include using design thinking principles and market research to innovate and concretize product ideas; a framework to scaffold the multidisciplinary aspects of managing a product; develop a product strategy that aligns with business goals and to architect a platform business model from first principles. Students can expect a hands-on approach, engaging class dialogues, lectures and offline study. Valuable insights will be shared by industry practitioners. ",
+					"Courses": [
+						"Strategic Product Manager",
+						"Service Design",
+						"Digital Product Strategy",
+						"Architecting Platforms as a Business"
+					]
+				},
+				{
+					"name": "Engineering Big Data",
+					"Focus Area": "",
+					"Course Component": "Specialist Software Engineering Areas",
+					"Description": "Students will learn various aspects of data engineering and processes required for building resilient distributed datasets. Students will also learn to apply key practices, identify multiple data sources appraised against their business value, design the right data storage model(s), and implement fitting data access patterns. Finally, Students will build a scalable data pipeline composed of pluggable functional compute components based on the business insight requirements in a vendor/technology agnostic manner. Students will work with Spark and Hadoop framework along with detailed focus on graph, ML, query and streaming libraries.",
+					"Courses": [
+						"Information Architecture for Data-driven Insights",
+						"Big Data Engineering for Analytics",
+						"Architecting Systems for Real-Time data processing"
+					]
+				},
+				{
+					"name": "Securing Ubiquitous Systems",
+					"Focus Area": "",
+					"Course Component": "Students will be equipped with skills to design and manage cyber security for ubiquitous systems that need to be highly secure . Students will learn about cyber security and its application in securing mobile systems and software platforms. Students will also learn how to incorporate security during the software development lifecycle.",
+					"Courses": [
+						"(ISC)2 CISSP CBK Training Seminar",
+						"Design Secure Mobile Architecture",
+						"Platform Security",
+						"Secure Software Development Lifecycle for Agile"
+					]
+				}
+			]
+		}
+	}
+	
+]

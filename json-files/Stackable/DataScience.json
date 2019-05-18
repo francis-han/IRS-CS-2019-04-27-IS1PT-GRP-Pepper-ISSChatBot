@@ -1,0 +1,134 @@
+{
+  "CertificateList": [
+    {
+      "CertificateName": "Graduate Certificate in Management of Business Analytics Project",
+      "Type": "Analytics Project Management and Delivery",
+      "CourseList": [
+        {
+          "name": "NICF - Data Analytics Process and Best Practice (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Data Storytelling (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Data Governance & Protection (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Managing Business Analytics Projects (SF)",
+          "duration": "3 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Business Analytics Practice",
+      "Type": "Core Analytics Techniques",
+      "CourseList": [
+        {
+          "name": "NICF - Statistics Bootcamp (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "NICF - Data Analytics Process and Best Practice (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Predictive Analytics – Insights of Trends and Irregularities (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "NICF - Text Analytics (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Recommender Systems (SF)",
+          "duration": "3 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Customer Analytics",
+      "Type": "Customer Analytics",
+      "CourseList": [
+        {
+          "name": "NICF - Customer Analytics (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Advanced Customer Analytics (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "Campaign Analytics*",
+          "duration": "3 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Big Data Engineering & Web Analytics",
+      "Type": "Big Data Processing",
+      "CourseList": [
+        {
+          "name": "Feature Engineering & Analytics using IOT Data*",
+          "duration": "3 days"
+        },
+        {
+          "name": "Graph & Web Mining*",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Big Data Engineering for Analytics (SF)",
+          "duration": "3 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Practical Language Processing",
+      "Type": "Practical Language Processing",
+      "CourseList": [
+        {
+          "name": "NICF - Text Analytics (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - New Media and Sentiment Mining (SF)",
+          "duration": "4 days"
+        },
+        {
+          "name": "NICF- Text Processing using Machine Learning (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "Conversational Interfaces*",
+          "duration": "5 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Specialised Predictive Modelling & Forecasting",
+      "Type": "Advanced Predictive Modelling Techniques",
+      "CourseList": [
+        {
+          "name": "NICF - Service Analytics (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "Generalized Predictive Modeling & Forecasting*",
+          "duration": "5 days"
+        },
+        {
+          "name": "NICF - Health Analytics (SF)",
+          "duration": "3 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    }
+  ]
+}

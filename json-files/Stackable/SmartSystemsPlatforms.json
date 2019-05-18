@@ -1,0 +1,111 @@
+{
+  "CertificateList": [
+    {
+      "CertificateName": "Graduate Certificate in Architecting Scalable Systems",
+      "Type": "Architecting Scalable Systems",
+      "CourseList": [
+        {
+          "name": "NICF-Cloud Native Solution Design (SF)",
+          "duration": "4 days"
+        },
+        {
+          "name": "NICF - Architecting Software Solutions (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "NICF - DevOps Engineering and Automation (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Platform Engineering (SF)",
+          "duration": "3 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Architecting Smart Systems",
+      "Type": "Architecting Smart Systems",
+      "CourseList": [
+        {
+          "name": "NICF - Architecting IoT Solutions (SF)",
+          "duration": "4 days"
+        },
+        {
+          "name": "NICF - Designing Intelligent Edge Computing (SF)",
+          "duration": "4 days"
+        },
+        {
+          "name": "NICF - Humanizing Smart Systems (SF)",
+          "duration": "4 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Designing and Managing Products and Platforms",
+      "Type": "Designing and Managing Products and Platforms",
+      "CourseList": [
+        {
+          "name": "NICF - Strategic Product ManagerTM (SF)",
+          "duration": "4 days"
+        },
+        {
+          "name": "NICF - Service Design (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Digital Product Strategy (SF)",
+          "duration": "3.7 days"
+        },
+        {
+          "name": "Architecting Platforms as a Business*",
+          "duration": "4 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Engineering Big Data",
+      "Type": "Engineering Big Data",
+      "CourseList": [
+        {
+          "name": "Information Architecture for Data-driven Insights*",
+          "duration": "4 days"
+        },
+        {
+          "name": "NICF - Big Data Engineering for Analytics (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "Architecting Systems for Real-Time Data Processing*",
+          "duration": "3 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Securing Ubiquitous Systems",
+      "Type": "Securing Ubiquitous Systems",
+      "CourseList": [
+        {
+          "name": "NICF - (ISC)2 CISSP CBK Training Seminar (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "NICF - Design Secure Mobile Architecture (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "Platform Security*",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Secure Software Development Lifecycle for Agile (SF)",
+          "duration": "3 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    }
+  ]
+}

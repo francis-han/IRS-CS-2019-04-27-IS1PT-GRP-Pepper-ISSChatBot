@@ -36,7 +36,7 @@
           "duration": "3 days"
         },
         {
-          "name": "NICF - Predictive Analytics – Insights of Trends and Irregularities (SF)",
+          "name": "NICF - Predictive Analytics - Insights of Trends and Irregularities (SF)",
           "duration": "5 days"
         },
         {
@@ -63,7 +63,7 @@
           "duration": "3 days"
         },
         {
-          "name": "Campaign Analytics*",
+          "name": "NICF- Campaign Analytics (SF)",
           "duration": "3 days"
         }
       ],
@@ -74,11 +74,11 @@
       "Type": "Big Data Processing",
       "CourseList": [
         {
-          "name": "Feature Engineering & Analytics using IOT Data*",
+          "name": "NICF - Feature Engineering and Analytics using IOT Data (SF)",
           "duration": "3 days"
         },
         {
-          "name": "Graph & Web Mining*",
+          "name": "Graph & Web Mining",
           "duration": "3 days"
         },
         {
@@ -105,7 +105,7 @@
           "duration": "5 days"
         },
         {
-          "name": "Conversational Interfaces*",
+          "name": "Conversational Interfaces",
           "duration": "5 days"
         }
       ],
@@ -120,7 +120,7 @@
           "duration": "3 days"
         },
         {
-          "name": "Generalized Predictive Modeling & Forecasting*",
+          "name": "Generalized Predictive Modeling & Forecasting",
           "duration": "5 days"
         },
         {

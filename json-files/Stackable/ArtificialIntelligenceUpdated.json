@@ -1,0 +1,543 @@
+{
+    "CertificateList": [
+        {
+            "CertificateName": "Graduate Certificate in Intelligent Reasoning Systems",
+            "Type": "Intelligent Reasoning Systems",
+            "CourseList": [
+                {
+                    "name": "NICF- Machine Reasoning (SF)",
+                    "duration": "4 days",
+                    "code": "MR",
+                    "category": "Artificial Intelligence",
+                    "days": "4.0",
+                    "price": "3600.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/machine-reasoning",
+                    "overview": {
+                        "full_name": "NICF- Machine Reasoning (SF)",
+                        "Reference No": "CRS-Q-0034843-ICT",
+                        "Part of": "-",
+                        "Duration": "4 days",
+                        "Course Time": "9:00am - 5:00pm",
+                        "Enquiry": "Please contact Ms. Jeryn LIN at tel: 66017926 or email for more details.",
+                        "description": [
+                            "Participants learn comprehensive knowledge of artificial intelligence (AI) fundamentals, automated computer/machine reasoning methods, knowledge discovery & modelling, decision support technologies, and intuitive graphics-based programming skills to design and create intelligent machine reasoning systems to solve real-world problems.",
+                            "Our course participants have been creating intelligent systems, which use knowledge-driven machine reasoning technologies learnt:",
+                            "This course can benefit engineers, scientists, software developer, application solution architect, and information technology professionals who intend to design, develop, implement and evaluate various applications of computer assisted decision automation systems. Participants will benefit from a careful balance of lectures and practical workshops. Some of the topics covered include concepts and techniques of artificial intelligence fundamentals; machine inference; knowledge representation; system architecture and modelling; knowledge discovery by data mining & machine learning; design and create machine reasoning system as a minimum viable product (MVP), e.g. BRMS/BPMS system. There will be projects and assessment to reinforce participants\u2019 learning as part of the course.",
+                            "This course is a part of the Artificial Intelligence and Graduate Certificate in Intelligent Reasoning Systems, which is a part of the Stackable Graduate Certificate Programme in Artificial Intelligent Systems (master degree) offered by NUS-ISS."
+                        ]
+                    },
+                    "takeaway": [
+                        "Identify needs of machine reasoning technology in various industrial applications, for decision automation.",
+                        "Acquire knowledge of core machine reasoning techniques, including rule/process-based logical reasoning, domain expert knowledge acquisition and representation, knowledge discovery, and handling uncertainty during reasoning process.",
+                        "Apply data mining / machine learning techniques to extract knowledge from data, then express business rules/processes in computer readable format.",
+                        "Create software application by applying learnt machine reasoning techniques and computer programming."
+                    ],
+                    "whoattend": [
+                        "Artificial Intelligence Engineer who need develop competency in knowledge modelling, representation, discovery, knowledge graph, knowledge/rule base, and machine inference.",
+                        "Software Developer/Engineer who need develop competency in business rule management system (BRMS) and business process management system (BPMS)",
+                        "Application Solution Architect who need design intelligent system solutions and integrate them into enterprise system architecture",
+                        "Data Scientist/Engineer who need obtain domain knowledge in artificial intelligence to assist data analytics.",
+                        "Working professionals who need to upgrade existing machine reasoning knowledge and skills by practicing contemporary system building tool sets."
+                    ],
+                    "whatcovered": [
+                        "Machine Reasoning Overview",
+                        "Reasoning Types & System Architectures",
+                        "Machine Reasoning Foundation Workshop",
+                        "Knowledge Acquisition & Representation",
+                        "Knowledge Models (from the acquired to the represented)",
+                        "Knowledge Modelling Workshop",
+                        "Artificial Intelligence: Technical Machine Inference",
+                        "Knowledge Discovery by Data Mining / Machine Learning",
+                        "Knowledge Discovery Workshop",
+                        "Contemporary Reasoning Systems",
+                        "Creating Machine Reasoning System Workshop",
+                        "Course Assessment"
+                    ]
+                },
+                {
+                    "name": "Cognitive Systems",
+                    "duration": "3 days"
+                },
+                {
+                    "name": "NICF- Reasoning Systems (SF)",
+                    "duration": "5 days",
+                    "code": "RS",
+                    "category": "Artificial Intelligence",
+                    "days": "5.0",
+                    "price": "4500.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/reasoning-systems",
+                    "overview": {
+                        "full_name": "NICF- Reasoning Systems (SF)",
+                        "Reference No": "CRS-Q-0036478-ICT",
+                        "Part of": "-",
+                        "Duration": "5 days",
+                        "Course Time": "9:00am - 5:00pm",
+                        "Enquiry": "Please contact Ms. Jaymee TAN at tel: 65161206 or email for more details.",
+                        "description": [
+                            "How can you capitalise on the use of Artificial Intelligence \u2013 Reasoning Systems to drive innovation and efficiency in your organisation? This 5-day course enables participants to understand the relevant knowledge needed to architect and/or lead teams executing intelligent system projects to reason, simulate, and optimise complex business problems. For example, how to predict future workload and staffing requirements by area, designation, skill and/or role; and how to dynamically redeploy workforce based on unplanned events (sick leave, workload and customer orders fluctuations) in real-time.",
+                            "Through a mix of lectures reinforced by case examples, participants will acquire comprehensive knowledge of artificial intelligence (AI) techniques, including search, scheduling, optimisation, constraint satisfaction, evolutionary computation, and data mining. Participants will also get hands-on learning to integrate hybrid reasoning systems using computer tools (with some programming) to solve complex and time consuming problems.",
+                            "Our course participants have been creating intelligent reasoning systems, which use hybrid artificial intelligence techniques learnt:",
+                            "This course is for business managers, data specialists, consultants, IT professionals and business professionals interested in learning how reasoning systems with AI optimization techniques can be applied into an organization to drive innovation, efficiency and identify competitive advantages.",
+                            "This course is a part of the Artificial Intelligence and Graduate Certificate in Intelligent Reasoning Systems, which is a part of the Stackable Graduate Certificate Programme in Artificial Intelligent Systems (Masters Degree) offered by NUS-ISS."
+                        ]
+                    },
+                    "takeaway": [
+                        "Identify real world business use cases and applications of advanced intelligent reasoning systems.",
+                        "Integrate advanced artificial intelligence enablers in reasoning systems, including heuristic search, constraint satisfaction, simulation assisted learning, evolutionary computation, optimization, planning, system integration, programming, data mining and machine learning algorithms.",
+                        "Decompose complex business/industry scenarios into sub problems to be solved by assembling cooperative intelligent subsystems.",
+                        "Architect hybrid reasoning system by evaluating suitable artificial intelligence techniques and system integration techniques to solve complex problem under business constraints."
+                    ],
+                    "whoattend": [
+                        "Operation Managers, Business Unit Managers, and Business Professionals who want to learn the use cases and benefits of AI powered intelligent business reasoning systems and core concepts.",
+                        "IT Managers, Enterprise Architects, Application Solution Architects, System Integrators, and Technology Consultants who want to design and integrate hybrid business reasoning solutions",
+                        "IT Analysts who need optimize business resource management using artificial intelligence",
+                        "Data Scientists, Data Engineers, and Data Specialists who want to use AI techniques to reinforce data analytics.",
+                        "IT professionals who want to practice contemporary AI toolsets"
+                    ],
+                    "whatcovered": [
+                        "Reasoning Systems Overview",
+                        "Uninformed Search Techniques",
+                        "Search Representation Workshop"
+                    ]
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Pattern Recognition Systems",
+            "Type": "Pattern Recognition Systems",
+            "CourseList": [
+                {
+                    "name": "NICF- Problem Solving using Pattern Recognition (SF)",
+                    "duration": "5 days",
+                    "code": "PSUPR",
+                    "category": "Artificial Intelligence",
+                    "days": "5.0",
+                    "price": "4500.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/problem-solving-using-pattern-recognition",
+                    "overview": {
+                        "full_name": "NICF- Problem Solving using Pattern Recognition (SF)",
+                        "Reference No": "CRS-Q-0035256-ICT",
+                        "Part of": "-",
+                        "Duration": "5 days",
+                        "Course Time": "9:00am - 5:00pm",
+                        "Enquiry": "Please contact Ms. Jaymee TAN at tel: 65161206 or email for more details.",
+                        "description": [
+                            "Pattern recognition is one of the most important areas of Artificial Intelligence. It is a branch of machine learning that focuses on the recognition of patterns and regularities in data. Pattern recognition systems can be trained from labelled training data through supervised learning and or unlabelled data through unsupervised learning.",
+                            "Pattern recognition has been widely used to solve many real-world problems such as image processing, speech recognition, data mining, business analytics, etc. There are many pattern recognition techniques available to perform different tasks such as regression, classification, clustering, etc. using various statistical and machine learning algorithms.",
+                            "This course will be useful for participants to acquire pattern recognition knowledge. It will help participants analyse data more effectively by deriving useful hidden patterns in the data. Participants will also learn how to select and apply the most suitable pattern recognition techniques to solve the given problems and develop pattern recognition systems."
+                        ]
+                    },
+                    "takeaway": [
+                        "Model an applied problem as a pattern recognition task",
+                        "Identify suitable pattern recognition techniques to solve the given problem",
+                        "Assess and compare alternative pattern recognition methods for a given task",
+                        "Analyse the results and suggest the possible improvement"
+                    ],
+                    "whoattend": [
+                        "IT professionals who need to apply pattern recognition techniques for developing intelligent systems for varied applications, including machine vision, business analytics, etc.",
+                        "IT professionals who wish to obtain knowledge in pattern recognition to add more value and insights to their systems/solutions.",
+                        "Domain specialists and others who plan to undertake pattern recognition projects."
+                    ],
+                    "whatcovered": [
+                        "Introduction to problem solving using pattern recognition",
+                        "Solving classification and prediction problems",
+                        "Solving clustering and anomaly detection problems",
+                        "Component analysis and dimension reduction",
+                        "Deep learning basics",
+                        "Practical case studies and workshops"
+                    ]
+                },
+                {
+                    "name": "NICF- Intelligent Sensing and Sense Making (SF)",
+                    "duration": "4 days",
+                    "code": "ISSM",
+                    "category": "Artificial Intelligence",
+                    "days": "4.0",
+                    "price": "3600.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/intelligent-sensing-and-sense-making",
+                    "overview": {
+                        "full_name": "NICF- Intelligent Sensing and Sense Making (SF)",
+                        "Reference No": "CRS-Q-0035259-ICT",
+                        "Part of": "-",
+                        "Duration": "4 days",
+                        "Course Time": "9:00am - 5:00pm",
+                        "Enquiry": "Please contact Ms. Jaymee TAN at tel: 65161206 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Identify needs of intelligent sensing technology in various industrial applications;",
+                        "Acquire knowledge of core intelligent sensing theories, analyze various signal processing models and algorithms;",
+                        "Design, apply and evaluate the performance of various intelligent sensing and sense making techniques."
+                    ],
+                    "whoattend": [
+                        "Data Scientist, Software Engineer, System Architecture, who need sensor signal processing skills to design and build systems that make decisions by recognizing complex patterns in data.",
+                        "IT professionals, who are managing projects and products related with intelligent sensing systems."
+                    ],
+                    "whatcovered": [
+                        "Introduction to intelligent sensing systems;",
+                        "Foundations of sensor signal processing in spatial and frequency domain;",
+                        "Statistical sensor signal analysis;",
+                        "Sensor signal processing using machine learning technique;",
+                        "Design and build sensor signal processing system to make sense of sensor data."
+                    ]
+                },
+                {
+                    "name": "NICF- Pattern Recognition and Machine Learning Systems (SF)",
+                    "duration": "5 days",
+                    "code": "PRMLS",
+                    "category": "Artificial Intelligence",
+                    "days": "5.0",
+                    "price": "4500.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/pattern-recognition-and-machine-learning-systems",
+                    "overview": {
+                        "full_name": "NICF- Pattern Recognition and Machine Learning Systems (SF)",
+                        "Reference No": "CRS-Q-0035255-ICT",
+                        "Part of": "-",
+                        "Duration": "5 days",
+                        "Course Time": "9:00am - 5:00pm",
+                        "Enquiry": "Please contact Ms. Jaymee TAN at tel: 65161206 or email for more details.",
+                        "description": [
+                            "Machine learning uses statistical techniques to give computers the ability to \"learn\" with data without being explicitly programmed. With the most recent breakthrough in the area of deep learning, machine learning has made a big leap. Deep learning has enabled many practical applications in the areas of computer vision, natural language processing, etc.",
+                            "There are many machine learning techniques available to develop intelligent systems and solve real-world complex problems. In this new era of AI and machine learning, it is important for IT professionals especially AI engineers to acquire the cutting-edge knowledge and skills in this area.",
+                            "This course will be useful for IT and AI professionals to acquire advanced pattern recognition and machine learning techniques, especially deep learning techniques. Participants will learn how to select and apply the most suitable machine learning techniques to solve the given problems and develop intelligent systems. This course covers general principles and techniques with a unique focus on practical applications.",
+                            "This course is part of the Artificial Intelligence and Graduate Certificate in Pattern Recognition Systems Series offered by NUS-ISS."
+                        ]
+                    },
+                    "takeaway": [
+                        "Assess and compare the suitability of advanced pattern recognition and machine learning techniques across a range of problem domains",
+                        "Apply deep learning and other advanced machine learning techniques to solve given problems",
+                        "Build intelligent systems using deep learning and other advanced pattern recognition techniques",
+                        "Analyse the results and suggest possible improvements"
+                    ],
+                    "whoattend": [
+                        "IT professionals who need to apply pattern recognition and machine learning techniques to develop intelligent systems.",
+                        "IT professionals who need to assess and compare pattern recognition and machine learning techniques.",
+                        "Domain specialists and anyone planning to undertake pattern recognition and machine learning projects."
+                    ],
+                    "whatcovered": [
+                        "Intro to Pattern Recognition and Machine Learning Systems",
+                        "Neural Network Basics",
+                        "Neural Network Modeling and Design",
+                        "Deep Learning Systems",
+                        "Convolutional Neural Networks",
+                        "Recurrent Neural Networks",
+                        "Hybrid and Ensemble Approaches",
+                        "Practical case studies and workshops"
+                    ]
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Intelligent Sensing Systems",
+            "Type": "Intelligent Sensing Systems",
+            "CourseList": [
+                {
+                    "name": "NICF- Vision Systems (SF)",
+                    "duration": "5 days",
+                    "code": "VSE",
+                    "category": "Artificial Intelligence",
+                    "days": "5.0",
+                    "price": "4500.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/vision-systems",
+                    "overview": {
+                        "full_name": "NICF- Vision Systems (SF)",
+                        "Reference No": "CRS-Q-0033975-ICT",
+                        "Part of": "-",
+                        "Duration": "5 days",
+                        "Course Time": "9:00am - 5:00pm",
+                        "Enquiry": "Please contact Ms. Sherlyn LIM at tel: 65165777 or email for more details.",
+                        "description": [
+                            "This 5-day intensive course will provide participants with the comprehensive knowledge of computer vision methods and technologies, and the practical skills to design and build vision systems to solve real-world problems.",
+                            "This course will benefit engineers, scientists, and project management professionals who need to design, develop, implement and evaluate software and hardware solutions in various applications of vision systems. Participants will benefit from a careful balance of lectures and practical workshops, and some of the topics covered will include concepts and techniques for vision system, video modelling and representation, video processing and analysis, feature extraction and representation, vision system using machine learning such as detection, recognition, segmentation, design, build and evaluate real-time vision system, etc.",
+                            "This course is part of the Artificial Intelligence and Graduate Certificate in Intelligent Sensing Systems Series offered by NUS-ISS."
+                        ]
+                    },
+                    "takeaway": [
+                        "Identify the requirements for vision systems in various industrial applications",
+                        "Understand the fundamentals of computer vision technology and core vision analytics theories and algorithms",
+                        "Design and apply vision analytics algorithms to solve industrial use-case scenarios",
+                        "Design and build vision systems in domains such as security surveillance, manufacture, consumer electronic, healthcare, urban solution.",
+                        "Assess the performance and usefulness of various vision systems"
+                    ],
+                    "whoattend": [
+                        "Data scientists who need domain knowledge in vision systems to add more value and insights to their data analytics tasks.",
+                        "Engineers who need to design, develop, implement and evaluate software and hardware solutions in various applications of vision systems.",
+                        "Project managers who are managing projects and products related with vision systems.",
+                        "Working professionals who are seeking to refresh or strengthen existing skills in vision systems."
+                    ],
+                    "whatcovered": [
+                        "Introduction to video analytics and computer vision system",
+                        "Foundations of computer vision system: Modelling, processing, feature extraction and representation",
+                        "Vision system using machine learning: Detection, recognition, and segmentation",
+                        "Design, build and evaluate real-time vision system",
+                        "Practical case studies in workshops"
+                    ]
+                },
+                {
+                    "name": "NICF- Spatial Reasoning from Sensor Data (SF)",
+                    "duration": "3 days",
+                    "code": "SRSD",
+                    "category": "Artificial Intelligence",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/spatial-reasoning-from-sensor-data",
+                    "overview": {
+                        "full_name": "NICF- Spatial Reasoning from Sensor Data (SF)",
+                        "Reference No": "CRS-Q-0037778-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. WONG Swee Lee at tel: 65162020 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Acquire the fundamentals of spatial sensing and spatial reasoning technology, including scene representation, scanning and mapping, spatial reasoning using feature-based approaches and the state-of-the-art machine learning based approaches.",
+                        "Apply critical analysis, evaluation and synthesis to a wide range of spatial sensing and spatial reasoning problems.",
+                        "Build spatial sensing and spatial reasoning systems in diverse areas such as robotics and augmented reality."
+                    ],
+                    "whoattend": [
+                        "Software Developers and Engineers who need to build spatial reasoning system, such as mapping and localization system for indoor and outdoor logistic warehouse applications.",
+                        "Data scientists who require spatial reasoning skill to analyze 3D sensor data.",
+                        "Product managers who need to initiate and manage projects and products related with spatial reasoning.",
+                        "Solution architects who need to integrate spatial reasoning capabilities into their intelligent sensing solution.",
+                        "Robotic system managers who use 3D vision to improve spatial reasoning performance of their robotic system."
+                    ],
+                    "whatcovered": [
+                        "Introduction to spatial sensing and reasoning from sensor data",
+                        "Spatial sensing: 3D sensor data representation and modelling",
+                        "Workshop on 3D sensor data representation and modelling, such as constructing 3D scene map based on image/video captured by the camera.",
+                        "Spatial reasoning: Scanning, mapping, localization",
+                        "Workshop on scene mapping and localization from sensor data, such as building a camera-based localization system for place recognition.",
+                        "Spatial reasoning: Object and scene recognition",
+                        "Case studies and workshop on design and build a spatial reasoning system, such as building a vision-based inspection system for building defect inspection and inventory checking in warehouse.",
+                        "Final written assessment test."
+                    ]
+                },
+                {
+                    "name": "Speech and Sound Sensing Systems",
+                    "duration": "4 days"
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Intelligent Software Agents",
+            "Type": "Intelligent Software Agents",
+            "CourseList": [
+                {
+                    "name": "Intelligent Process Automation",
+                    "duration": "3 days"
+                },
+                {
+                    "name": "Software Robots",
+                    "duration": "4 days"
+                },
+                {
+                    "name": "Self-learning Systems",
+                    "duration": "4 days"
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Practical Language Processing",
+            "Type": "Practical Language Processing",
+            "CourseList": [
+                {
+                    "name": "NICF- Text Analytics (SF)",
+                    "duration": "3 days",
+                    "code": "TA-SF",
+                    "category": "Artificial Intelligence",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--text-analytics-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Text Analytics (SF)",
+                        "Reference No": "CRS-Q-0034794-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Geraldine WONG at tel: 65168554 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Identify main themes or topics in the collection of documents or textual data (e.g. the prominent issues customers are complaining about).",
+                        "Discover relationships and patterns among topics (e.g. which issues tend to co-occur in complaints).",
+                        "Categorise documents based on discovered topics and user-definable criteria, such as grouping complaints about similar issues for further investigation.",
+                        "Perform sentiment analysis on customers\u2019 comments, reviews, or other forms of opinions to gain a good sense about how customers feel about their company, products and services.",
+                        "Extract useful information from text as structured data to enable integration into the traditional data mining process.",
+                        "Incorporate business understanding and domain knowledge into the analysis through lexical and knowledge resources.",
+                        "Perform the above tasks using the open-source language, R"
+                    ],
+                    "whoattend": [
+                        "Business and IT professionals seeking analytical skills to handle large amounts of textual data (e.g. customer feedbacks, product reviews on social media, etc.) for insights to improve business process and decision making",
+                        "Individuals who have no knowledge or experience in text analytics and would like to gain some knowledge in this area so that they may explore work opportunities in business analytics",
+                        "Data analysts, business users and IT professionals who want to move from the structured data to large amounts of unstructured, text data"
+                    ],
+                    "whatcovered": [
+                        "Identify text analytics solution and platform requirements with IT team",
+                        "Develop term-document frequency matrix to enable lookup of text and documents within the corpus",
+                        "Define the metadata and corpus for the data to be imported into the text analytics repository",
+                        "Develop a standardised set of text analytics artifacts with the relevant stakeholders",
+                        "Modify the text analytics solution to ensure that it produces the expected results",
+                        "Define the process to perform text analytics based on the business requirements and text analytics artifacts"
+                    ]
+                },
+                {
+                    "name": "NICF- New Media and Sentiment Mining (SF)",
+                    "duration": "4 days",
+                    "code": "NMSM",
+                    "category": "Artificial Intelligence",
+                    "days": "4.0",
+                    "price": "3600.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/new-media-and-sentiment-mining-new",
+                    "overview": {
+                        "full_name": "NICF- New Media and Sentiment Mining (SF)",
+                        "Reference No": "CRS-Q-0034007-ICT",
+                        "Part of": "Graduate Certificate in Practical Language Processing",
+                        "Duration": "4 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Sherlyn LIM at tel: 65165777 or email for more details.",
+                        "description": [
+                            "Do you have a lot of textual data from various sources like customers, internal documents, emails, news articles and the social media that comes in fast and furious? Do you want to extract meaningful opinions and sentiments from these textual data automatically? This course further extends the knowledge and skillsets built by the NICF - Text Analytics (SF) course. It equips the attendee with the necessary skillsets to design sentiment analysis system and apply them in various social fields. The ability to process and analyse voluminous textual data provides the participants an edge in this new media age. The objective of this course is to introduce participants to sentiment analysis and its applications. Participants will gain the requisite skills to evaluate the supervised learning algorithms for sentiment classification. They will be able to evaluate and analyse granular meaning of texts from documents and articles. The course will assume that the participants have good knowledge of text analytics and techniques, and some hands on experience of modelling using these techniques using Python. Participants are also expected to have knowledge of statistics at the level of the NICF - Statistics Bootcamp (SF) course. This course is part of the Artificial Intelligence and Graduate Certificate in Practical Language Processing Series offered by NUS-ISS."
+                        ]
+                    },
+                    "takeaway": [
+                        "Identify where sentiment analysis can be applied",
+                        "Evaluate and analyse the classification techniques for sentiment classification and apply it with open source libraries",
+                        "Design a sentiment analysis system for customer feedback and reviews",
+                        "Design a sentiment analysis system for news and social media for applications in finance",
+                        "Evaluate and assess sentiment analysis at a granular level for entities and aspects"
+                    ],
+                    "whoattend": [
+                        "It is applicable for professionals engaged in the following areas.",
+                        "Customer analysts performing deeper analytics on sentiment analysis on customer feedbacks and reviews",
+                        "Data scientists in financial services doing applied sentiment mining for applications in finance including fraud, trading.",
+                        "Data analysts in the financial services who use internal research and external news for research.",
+                        "Analysts who want to automate and extract insights from the voluminous internal and external textual documents in their organisations"
+                    ],
+                    "whatcovered": [
+                        "Introduction to sentiment analysis and its applications in various social domains.",
+                        "Overview of related tasks of NLP to sentiment analysis",
+                        "Supervised learning classification algorithms for sentiment analysis",
+                        "Entity and aspect mining for sentiment analysis",
+                        "Sentiment visualization tools",
+                        "Applications of sentiment analysis to customer analytics and financial applications",
+                        "Sentiment analysis and its psychological basis"
+                    ]
+                },
+                {
+                    "name": "NICF- Text Processing using Machine Learning (SF)",
+                    "duration": "5 days",
+                    "code": "TPML",
+                    "category": "Artificial Intelligence",
+                    "days": "5.0",
+                    "price": "4500.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/text-processing-using-machine-learning",
+                    "overview": {
+                        "full_name": "NICF- Text Processing using Machine Learning (SF)",
+                        "Reference No": "CRS-Q-0033976-ICT",
+                        "Part of": "Graduate Certificate in Practical Language Processing",
+                        "Duration": "5 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Sherlyn LIM at tel: 65165777 or email for more details.",
+                        "description": [
+                            "We are in an era where AI and analytics are transforming industries and people\u2019s life at an unprecedented pace. In the recently released report from Gartner, Top 10 Strategic Technology Trends for 2018, the top two trends are AI Foundation, and Intelligent Apps and Analytics.",
+                            "AI Foundation focuses on creating systems that learn, adapt and potentially act autonomously, and leveraging AI to enhance decision making, reinvent business models and ecosystems, and remake the customer experience. The technologies and techniques in AI Foundation have grown substantially over the years, as the availability of massive amounts of data has fed machine learning, resulting in the flourishing of more advanced algorithms in the form of deep learning.",
+                            "The second trend, Intelligent Apps and Analytics, clearly states AI\u2019s huge impact in the next-generation data and analytics paradigm, Augmented Analytics. Machine learning is key in this new paradigm, automating data preparation, insight discovery and insight sharing for a broad range of end-users and citizen data scientists, while expert data scientists focusing on specialized problems and on embedding models into applications. The need to perform processing on natural language data is reflected in the illustrated paradigm, identifying three tasks in this area \u2013 natural language processing (NLP), natural language query (NLQ), natural language generation (NLG).",
+                            "In the field of NLP, deep learning techniques has taken a dominant position over tradition statistical methods. Researchers have been reporting much higher performance metrics applying deep learning to solve problems like text classification, language modeling, speech recognition, caption generation, machine translation, document summarization, question answering, etc.",
+                            "This course, Text Processing Using Machine Learning, provides essential knowledge and skills required to perform deep learning based text processing in common tasks encountered in industries. A combination of lectures, case studies, and workshops will be used to cover the application of DL techniques such as word-embedding, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), LSTMs, character-based language modelling, encoder-decoder models, reinforcement learning, etc.",
+                            "This course is part of the Artificial Intelligence and Graduate Certificate in Practical Language Processing Series offered by NUS-ISS."
+                        ]
+                    },
+                    "takeaway": [
+                        "Identify common tasks that industry has with textual data",
+                        "Gain a practical understanding about advanced machine learning techniques for NLP",
+                        "Acquire proficiency in implementing and creating NLP models for the above tasks",
+                        "Learn how the fundamentals and cutting-edge machine learning approaches work together for performing text-related tasks in industry."
+                    ],
+                    "whoattend": [
+                        "Machine learning engineers",
+                        "Data scientists",
+                        "Data analysts"
+                    ],
+                    "whatcovered": [
+                        "NLP and Deep Learning",
+                        "Deep Learning Foundations",
+                        "Word Embeddings",
+                        "Text Classification",
+                        "Language Models and Recurrent Neural Networks",
+                        "Encoder-Decoder Models",
+                        "Memory Networks",
+                        "NLP & Bayesian Methods",
+                        "Parsing"
+                    ]
+                },
+                {
+                    "name": "Conversational Interfaces",
+                    "duration": "5 days"
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Intelligent Robotic Systems",
+            "Type": "Intelligent Robotic Systems",
+            "CourseList": [
+                {
+                    "name": "NICF- Robotic Systems (SF)",
+                    "duration": "5 days",
+                    "code": "RBS",
+                    "category": "Artificial Intelligence",
+                    "days": "5.0",
+                    "price": "4500.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/robotic-systems",
+                    "overview": {
+                        "full_name": "NICF- Robotic Systems (SF)",
+                        "Reference No": "CRS-Q-0033974-ICT",
+                        "Part of": "-",
+                        "Duration": "5 days",
+                        "Course Time": "9:00am - 5:00pm",
+                        "Enquiry": "Please contact Ms. Jaymee TAN at email for more details.",
+                        "description": [
+                            "This 5-day course is designed for professionals who wish to gain specialised knowledge in the integration and development of various components within intelligent robotic systems for a wide range application across various industries. The modules will benefit those working in various sectors, for example, in medical, manufacturing and defence industry.",
+                            "Participants will gain in-depth knowledge in areas like understanding autonomous behaviour types in robotics, robotics sensory operations, understanding robotics mobility, and robotic path planning and fuzzy behaviors in robotics. There will be workshops and assessment to reinforce participants\u2019 learning as part of the course.",
+                            "This course is part of the Artificial Intelligence series and Graduate Certificate in Intelligent Robotic Systems Series offered by NUS-ISS."
+                        ]
+                    },
+                    "takeaway": [
+                        "Acquire the fundamentals of robotics systems technology and control, including autonomous behaviors, sensory systems, mobility computation, path planning and state-of-the-art robotic behavior approaches.",
+                        "Apply hands-on critical analysis, evaluation and synthesis to a wide range of robotic systems scenarios and problems.",
+                        "Build robust robotic systems in diverse areas such as games, manufacturing, and defense."
+                    ],
+                    "whoattend": [
+                        "The target course participants are for professionals interested in robotic systems.",
+                        "Engineering professionals",
+                        "Systems specialists",
+                        "Engineering managers",
+                        "R&D professionals"
+                    ],
+                    "whatcovered": [
+                        "Introduction to Robotic Systems.",
+                        "Autonomous Behavior",
+                        "Robotic Sensory Systems",
+                        "Robotic Locomotion",
+                        "Robotic Pathway Planning",
+                        "Fuzzy Behavior"
+                    ]
+                },
+                {
+                    "name": "Autonomous Robots & Vehicles",
+                    "duration": "5 days"
+                },
+                {
+                    "name": "Human-Robot System Engineering",
+                    "duration": "4 days"
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        }
+    ]
+}

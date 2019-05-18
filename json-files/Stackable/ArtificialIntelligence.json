@@ -9,7 +9,7 @@
           "duration": "4 days"
         },
         {
-          "name": "Cognitive Systems*",
+          "name": "Cognitive Systems",
           "duration": "3 days"
         },
         {
@@ -51,7 +51,7 @@
           "duration": "3 days"
         },
         {
-          "name": "Speech and Sound Sensing Systems*",
+          "name": "Speech and Sound Sensing Systems",
           "duration": "4 days"
         }
       ],
@@ -62,15 +62,15 @@
       "Type": "Intelligent Software Agents",
       "CourseList": [
         {
-          "name": "Intelligent Process Automation*",
+          "name": "Intelligent Process Automation",
           "duration": "3 days"
         },
         {
-          "name": "Software Robots*",
+          "name": "Software Robots",
           "duration": "4 days"
         },
         {
-          "name": "Self-learning Systems*",
+          "name": "Self-learning Systems",
           "duration": "4 days"
         }
       ],
@@ -89,11 +89,11 @@
           "duration": "4 days"
         },
         {
-          "name": "NICF- Text Processing using Machine Learning(SF)",
+          "name": "NICF- Text Processing using Machine Learning (SF)",
           "duration": "5 days"
         },
         {
-          "name": "Conversational Interfaces*",
+          "name": "Conversational Interfaces",
           "duration": "5 days"
         }
       ],
@@ -108,11 +108,11 @@
           "duration": "5 days"
         },
         {
-          "name": "Autonomous Robots & Vehicles*",
+          "name": "Autonomous Robots & Vehicles",
           "duration": "5 days"
         },
         {
-          "name": "Human-Robot System Engineering*",
+          "name": "Human-Robot System Engineering",
           "duration": "4 days"
         }
       ],

@@ -1,6 +1,6 @@
 from flask import Flask, request, make_response, jsonify
 import requests
-
+import os
 import datautil
 import re
 
@@ -873,5 +873,6 @@ if __name__ == '__main__':
    intent_state00=open("intent_state.txt","w+")
    intent_state00.write("NO999\n")
    intent_state00.close()
-   app.run(debug=True, host='0.0.0.0', port=5000)
+   newPort = int(os.environ.get("PORT", 5000))
+   app.run(debug=False, host='0.0.0.0', port=newPort)
 

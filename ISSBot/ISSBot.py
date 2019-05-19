@@ -2,81 +2,84 @@ from flask import Flask, request, make_response, jsonify
 import requests
 
 import datautil
+import re
 
 app = Flask(__name__)
 
-## TODO: STEP 1 
-APIKEY = "cea0632e0b89b7be95111b121e724958" # Place your API KEY Here... 
-#"8a81d247d650cb16469c4ba3ceb7d265"
-state=0
 # **********************
 # UTIL FUNCTIONS : START
 # **********************
 
+#Explaination: The dialogflow is returning the request in json format
 def getjson(url):
     resp =requests.get(url)
     print(resp)
     return resp.json()
 
-def getWeatherInfo(location):
-    API_ENDPOINT = f"http://api.openweathermap.org/data/2.5/weather?APPID={APIKEY}&q={location}"
-    data = getjson(API_ENDPOINT)
-    code = data["cod"]
-    if code == 200:
-        return data["weather"][0]["description"]
-
-# **********************
-# UTIL FUNCTIONS : END
-# **********************
-
-# *****************************
-# Intent Handlers funcs : START
-# *****************************
-
-## TODO Step 3:
-def getWeatherIntentHandler(req):
-    """
-    Get location parameter from dialogflow and call the util function `getWeatherInfo` to get weather info
-    """
-    # HINT: req.get("queryResult").get("parameters").get("some-example-parameter")
-
-    location_dict=req.get("queryResult").get("parameters").get("location")
-    print (f"{location_dict}")
-    for item in eval( f"{location_dict}" ): 
-        if eval( f"{location_dict}" )[item]!='':
-            print(item,req.get("queryResult").get("parameters").get("location").get(item))
-            location = eval( f"{location_dict}" )[item] #req.get("queryResult").get("parameters").get("location").get(item)#write code here
-    
-    #location = "??" # Make sure location is lower case
-
-    # Call the getWeatherInfo function with `location` as input, and store the result in `info`
-    info = getWeatherInfo(f"{location}")
-    
-    return f"Currently in {location} , its {info}"
-
-# ***************************
-# Intent Handlers funcs : END
-# ***************************
-
 
 # *****************************
 # WEBHOOK MAIN ENDPOINT : START
 # *****************************
+
+#Explaination: The webhook is called in the Flask app. It processes the json format data sent by dialogflow through API commands
 @app.route('/', methods=['POST'])
 def webhook():
+   #Explaination: req is used throughout the function. It is actually now a python dictionary-array structure converted from json.
    req = request.get_json(silent=True, force=True)
+   #Explaination: queryResult consists of all the data sent by dialogflow. It consists of intent name. Intent name determines different data processing.
    intent_name = req["queryResult"]["intent"]["displayName"]
+   #Explaination: Certain intents require crucial entity for the data processing. Hence, if the crucial entity is missed by user, it is captured by intent_state.txt. "NO999" indicates normal processing based on the intent. However, if it records certain intent name defined in dialogflow, it will replace the "NO999" characters.
+   intent_state=open("intent_state.txt","r")
+   line=intent_state.readline()
+   parsed_param=0
+   if line.find("NO999")!=-1:
+       print("999")
+       #Explaination: process as usual
+       intent_name = req["queryResult"]["intent"]["displayName"]
+   else:
+       print("998")
+       #Explaination: continue to process previous query with new inputs. parsed_param=1 is used as flag at intent level
+       intent_name = line.replace("\n","")
+       parsed_param=1
+   intent_state.close()
+   print(intent_name)
 
+   #Explaination: This portion process fulfillment webhook from knowledge base. Return immediately. respose_text is the returned text and it will be return as json format.
+   if intent_name.find("Knowledge")!=-1:
+       respose_text=""
+       print(req["queryResult"]['knowledgeAnswers']['answers'])
+       elemm=req["queryResult"]['knowledgeAnswers']['answers']
+       for ele in elemm:
+            if ele['answer'] is not None:
+                respose_text=ele['answer']
+                print (respose_text)
+                #Explaination: return in json format to dialogflow.
+                return make_response(jsonify({'fulfillmentText': respose_text}))
 
+   #Explaination: This portion process fulfillment webhook when there is fallback as a result of dialogflow do not understand the query. Return immediately.
+   if intent_name == "Default Fallback Intent":
+       respose_text = "Please kindly repeat again. Thanks!"
+       return make_response(jsonify({'fulfillmentText': respose_text}))
 
+   #Explaination: This portion process ISS-Organisation intent fulfillment in dialogflow. Return webpage link
    if intent_name == "ISS-Organisation" : ##
        
        respose_text = "Go to https://www.iss.nus.edu.sg/about-us/iss-team/teaching-staff" ## Call your getWeatherIntentHandler with req object as input. 
 
+   #Explaination: This portion process CourseListIntent intent fulfillment in dialogflow. Return webpage link for each program category
    elif intent_name == "CourseListIntent" : ##
+       #Explaination: initial response
        respose_text="Please kindly ask me again."
-       ProgramName=req.get("queryResult").get("parameters").get("ProgramName")
-       if ProgramName=='graduate programmes':
+       #Explaination: ProgramName is an parameter in dialogflow. It is defined as entity in dialogflow.
+       ProgramName0=req.get("queryResult").get("parameters").get("ProgramName")
+       #Explaination: processing the program name. Avoid cases where program name is returned as array of string rather than string.
+       ProgramName=""
+       if type(ProgramName0)==type([]):
+           if len(ProgramName0)>=1:
+               ProgramName=ProgramName0[0]
+       elif type(ProgramName0)==type(""):
+           ProgramName=ProgramName0
+       if ProgramName=='graduateProgrammes':
            respose_text='Graduate Diploma in Systems Analysis, Master of Technology in Enterprise Business Analytics, Master of Technology in Intelligent Systems, Master of Technology in Software Engineering'
        elif ProgramName=='executive education':
            respose_text="https://www.iss.nus.edu.sg/executive-education"
@@ -86,10 +89,28 @@ def webhook():
            respose_text="Master of Technology in Enterprise Business Analytics, Master of Technology in Intelligent Systems, Master of Technology in Software Engineering"
 
 
+   #Explaination: This portion process CoursePreRequisites intent fulfillment in dialogflow. A json file is created to structurize information gathered from ISS webpage. Return respective pre-requisites based on json file.
    elif intent_name == "CoursePreRequisites" : ##
-       respose_text="Please kindly ask me again with the course name given"
+       #Explaination: Initial response
+       respose_text="Please kindly ask me again with the course name given."
+       #Explaination: Getting knowledge from local json file.
        gradudateInfo = datautil.GraduateProgrammeInfo()
-       CourseName=req.get("queryResult").get("parameters").get("CourseName")
+       #Explaination: Start to get course name
+       CourseName=""
+       #Explaination: If previous query does not consists of the course name, try to get the course name in current query by processing raw query text generated by dialogflow.
+       if parsed_param==1:
+           CourseName=processContinuedIntent(req)
+       #Explaination: getting course name from the parameter parsed from dialogflow. If the dialogflow do not understand the query, it is likely that it returns empty string. 
+       CourseName0=req.get("queryResult").get("parameters").get("CourseName")
+       #print(CourseName0)
+       #CourseName=""
+       #Explaination: let CourseName be overriden by parameter query result. If course name parameter is not a valid return when the 1st query is not complete, then course name parameter is null. The processed raw query data (processed earlier by processContinuedIntent subroutine call) will then used as course name
+       if type(CourseName0)==type([]):
+           if len(CourseName0)>=1:
+               CourseName=CourseName0[0]
+       elif type(CourseName0)==type(""):
+           CourseName=CourseName0
+       #Explaination: generate response based on course name.
        if CourseName=='Graduate Diploma in Systems Analysis':           
            respose_text = gradudateInfo.read_admission_info(CourseName)["pre-requisites"]
        elif CourseName=='Master of Technology in Enterprise Business Analytics':
@@ -99,27 +120,162 @@ def webhook():
        elif CourseName=='Master of Technology in Software Engineering':
            respose_text = gradudateInfo.read_admission_info(CourseName)["pre-requisites"]
        elif CourseName=='Master of Technology in Digital Leadership':
-           respose_text = gradudateInfo.read_admission_info(CourseName)["pre-requisites"]            
+           respose_text = gradudateInfo.read_admission_info(CourseName)["pre-requisites"]       
+       #Explaination: if course name is unobtainable, record the intent name in intent_state.txt     
+       elif CourseName=="":
+           int_stat=open("intent_state.txt","w+")
+           print("333")
+           int_stat.write(intent_name+"\n")
+           int_stat.close()
 
+   #Explaination: This portion process CourseFeeIntent intent fulfillment in dialogflow. Return strings based on full time/part time and student nationality.
    elif intent_name == "CourseFeeIntent" : ##
-       respose_text="Please kindly ask me again with the course name given"
-       CourseName=req.get("queryResult").get("parameters").get("CourseName")
+       CourseName=""
+       if parsed_param==1:
+           CourseName=processContinuedIntent(req)
+           
+       respose_text="Please kindly ask me again with the course name given."
+       CourseName0=req.get("queryResult").get("parameters").get("CourseName")
+       #CourseName=""
+       if type(CourseName0)==type([]):
+           if len(CourseName0)>=1:
+               CourseName=CourseName0[0]
+       elif type(CourseName0)==type(""):
+           CourseName=CourseName0
        print(CourseName)
+       #Explaination: optional. Full time/part time in query
+       CourseType=req.get("queryResult").get("parameters").get("CourseType")
+       #Explaination: optional. Student nationality in query
+       StudentIdentity=req.get("queryResult").get("parameters").get("StudentIdentity")
+       #print(CourseName)
+       #Explaination: answer is generated based on course name. Course Name is mandatory. If there is no course name in this query, next query is expected to be the course name.
        if CourseName=='Graduate Diploma in Systems Analysis':
-           respose_text="S$10,013.29"
-       elif CourseName=='Master of Technology in Enterprise Business Analytics':
-           respose_text="S$19,951.22 to S$21,376.46"
-       elif CourseName=='Master of Technology in Intelligent Systems':
-           respose_text="S$20,939.90 to S$22,095.50"
-       elif CourseName=='Master of Technology in Software Engineering':
-           respose_text="S$17,981.35 or S$18,222.10"
-       elif CourseName=='Master of Technology in Digital Leadership':
-           respose_text = 'S$20,500.95'
+           #Explaination: default answer. Full time/part time and student nationality allows answers to be narrow down but not mandatory.
+           respose_text="Full Time: S$10,013.29 (International Student: S$23,563.29 or S$37,463.29 Check service obligation)"
+           if CourseType=="Part Time":
+               respose_text="No part time course"
+               if StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+                   respose_text="No part time course"
+               elif StudentIdentity=="International":
+                   respose_text="No part time course"
+           elif CourseType=="Full Time":
+               respose_text="S$10,013.29"
+               if StudentIdentity=="Singaporean":
+                   respose_text="S$10,013.29"
+               elif StudentIdentity=="Singapore PR":
+                   respose_text="S$15,663.29"
+               elif StudentIdentity=="International":
+                   respose_text="S$23,563.29 or S$37,463.29 (Check service obligation)"
+           elif StudentIdentity=="Singaporean":
+               respose_text="S$10,013.29"
+           elif StudentIdentity=="Singapore PR":
+               respose_text="S$15,663.29"
+           elif StudentIdentity=="International":
+               respose_text="S$23,563.29 or S$37,463.29 (Check service obligation)"
 
+       elif CourseName=='Master of Technology in Enterprise Business Analytics':
+           respose_text="S$19,951.22 to S$21,376.46 (International Student: S$52,023.40 to S$56,774.20)"
+           if CourseType=="Part Time":
+               respose_text="Part Time: S$19,951.22 to S$21,376.46 (International Student: S$52,023.40 to S$56,774.20)"
+               if StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+                   respose_text="S$19,951.22 to S$21,376.46"
+               elif StudentIdentity=="International":
+                   respose_text="S$52,023.40 to S$56,774.20"
+           elif CourseType=="Full Time":
+               respose_text="Full Time: S$19,951.22 to S$21,376.46 (International Student: S$52,023.40 to S$56,774.20)"
+               if StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+                   respose_text="S$19,951.22 to S$21,376.46"
+               elif StudentIdentity=="International":
+                   respose_text="S$52,023.40 to S$56,774.20"
+           elif StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+               respose_text="S$19,951.22 to S$21,376.46"
+           elif StudentIdentity=="International":
+               respose_text="S$52,023.40 to S$56,774.20 "
+
+       elif CourseName=='Master of Technology in Intelligent Systems':
+           respose_text="S$20,939.90 to S$22,095.50 (International Student: S$55,319.00 to S$59,171.00)"
+           if CourseType=="Part Time":
+               respose_text="Full Time: S$20,939.90 to S$22,095.50 (International Student: S$55,319.00 to S$59,171.00)"
+               if StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+                   respose_text="S$20,939.90 to S$22,095.50"
+               elif StudentIdentity=="International":
+                   respose_text="S$55,319.00 to S$59,171.00"
+           elif StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+               respose_text="S$20,939.90 to S$22,095.50"
+           elif StudentIdentity=="International":
+               respose_text="S$55,319.00 to S$59,171.00"
+           elif CourseType=="Full Time":
+               respose_text="Full Time: S$20,939.90 to S$22,095.50 (International Student: S$55,319.00 to S$59,171.00)"
+               if StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+                   respose_text="S$20,939.90 to S$22,095.50"
+               elif StudentIdentity=="International":
+                   respose_text="S$55,319.00 to S$59,171.00"
+           elif StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+               respose_text="S$20,939.90 to S$22,095.50"
+           elif StudentIdentity=="International":
+               respose_text="S$55,319.00 to S$59,171.00"
+
+       elif CourseName=='Master of Technology in Software Engineering':
+           respose_text="S$17,981.35 or S$18,222.10 (International Student: S$45,956.50 or S$46,759.00)"
+           if CourseType=="Part Time":
+               respose_text="Part Time: S$17,981.35 or S$18,222.10 (International Student: S$45,956.50 or S$46,759.00)"
+               if StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+                   respose_text="S$17,981.35 or S$18,222.10"
+               elif StudentIdentity=="International":
+                   respose_text="S$45,956.50 or S$46,759.00"
+           elif CourseType=="Full Time":
+               respose_text="Full Time: S$17,981.35 or S$18,222.10 (International Student: S$45,956.50 or S$46,759.00)"
+               if StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+                   respose_text="S$17,981.35 or S$18,222.10"
+               elif StudentIdentity=="International":
+                   respose_text="S$45,956.50 or S$46,759.00"
+           elif StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+               respose_text="S$17,981.35 or S$18,222.10"
+           elif StudentIdentity=="International":
+               respose_text="S$45,956.50 or S$46,759.00"
+
+       elif CourseName=='Master of Technology in Digital Leadership':
+           respose_text = 'Full Time: S$20,500.95 (International Student: S$22,750.95),\n Part Time: S$10,257.90 (International Student: S$11,382.90)'
+           if CourseType=="Part Time":
+               respose_text="Part Time: S$10,257.90 (International Student: S$11,382.90)"
+               if StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+                   respose_text="S$10,257.90"
+               elif StudentIdentity=="International":
+                   respose_text="S$11,382.90"
+           elif CourseType=="Full Time":
+               respose_text="Full Time: S$20,500.95 (International Student: S$22,750.95)"
+               if StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+                   respose_text="S$20,500.95"
+               elif StudentIdentity=="International":
+                   respose_text="S$22,750.95"
+           elif StudentIdentity=="Singaporean" or StudentIdentity=="Singapore PR":
+               respose_text="Full Time: S$20,500.95 ,\n Part Time: S$10,257.90 "
+           elif StudentIdentity=="International":
+               respose_text="Full Time: S$22,750.95 ,\n Part Time: S$11,382.90"
+       #Explaination: if course name is unobtainable, record the intent name in intent_state.txt     
+       elif CourseName=="":
+           int_stat=open("intent_state.txt","w+")
+           print("333")
+           int_stat.write(intent_name+"\n")
+           int_stat.close()
+
+   #Explaination: This portion process CourseDurationIntent intent fulfillment in dialogflow. An internal json file is created to structurize information gathered from ISS webpage. Return duration of respective postgraduate course based on json file.
    elif intent_name == "CourseDurationIntent" : ##
        respose_text="Please kindly ask me again with the course name given"
        gradudateInfo = datautil.GraduateProgrammeInfo()
-       CourseName=req.get("queryResult").get("parameters").get("CourseName")
+       #Explaination: Start to get course name
+       CourseName=""
+       #Explaination: If previous query does not consists of the course name, try to get the course name in current query by processing raw query text generated by dialogflow.
+       if parsed_param==1:
+           CourseName=processContinuedIntent(req)
+
+       CourseName0=req.get("queryResult").get("parameters").get("CourseName")
+       #CourseName=""
+       if type(CourseName0)==type([]):
+           if len(CourseName0)>=1:
+               CourseName=CourseName0[0]
+       elif type(CourseName0)==type(""):
+           CourseName=CourseName0
        if CourseName=='Graduate Diploma in Systems Analysis':           
            respose_text = gradudateInfo.read_overview_info(CourseName)["Duration"]
        elif CourseName=='Master of Technology in Enterprise Business Analytics':
@@ -130,11 +286,29 @@ def webhook():
            respose_text = gradudateInfo.read_overview_info(CourseName)["Duration"]
        elif CourseName=='Master of Technology in Digital Leadership':
            respose_text = gradudateInfo.read_overview_info(CourseName)["Duration"]
+       #Explaination: if course name is unobtainable, record the intent name in intent_state.txt     
+       elif CourseName=="":
+           int_stat=open("intent_state.txt","w+")
+           print("333")
+           int_stat.write(intent_name+"\n")
+           int_stat.close()
        
+   #Explaination: This portion process CourseDescriptionIntent intent fulfillment in dialogflow. An internal json file is created to structurize information gathered from ISS webpage. Return respective postgraduate course description based on json file.
    elif intent_name == "CourseDescriptionIntent" : ##
        respose_text="Please kindly ask me again with the course name given"
        gradudateInfo = datautil.GraduateProgrammeInfo()
-       CourseName=req.get("queryResult").get("parameters").get("CourseName")
+       #Explaination: Start to get course name
+       CourseName=""
+       #Explaination: If previous query does not consists of the course name, try to get the course name in current query by processing raw query text generated by dialogflow.
+       if parsed_param==1:
+           CourseName=processContinuedIntent(req)
+       CourseName0=req.get("queryResult").get("parameters").get("CourseName")
+       #CourseName=""
+       if type(CourseName0)==type([]):
+           if len(CourseName0)>=1:
+               CourseName=CourseName0[0]
+       elif type(CourseName0)==type(""):
+           CourseName=CourseName0
        if CourseName=='Graduate Diploma in Systems Analysis':           
            respose_text = gradudateInfo.read_overview_info(CourseName)["Overall Description"]
        elif CourseName=='Master of Technology in Enterprise Business Analytics':
@@ -145,11 +319,29 @@ def webhook():
             respose_text = gradudateInfo.read_overview_info(CourseName)["Overall Description"]
        elif CourseName=='Master of Technology in Digital Leadership':
             respose_text = gradudateInfo.read_overview_info(CourseName)["Overall Description"]
-       
+       #Explaination: if course name is unobtainable, record the intent name in intent_state.txt     
+       elif CourseName=="":
+           int_stat=open("intent_state.txt","w+")
+           print("333")
+           int_stat.write(intent_name+"\n")
+           int_stat.close()
+
+   #Explaination: This portion process CourseScheduleIntent intent fulfillment in dialogflow. An internal json file is created to structurize information gathered from ISS webpage. Return next intake of each course based on json file.
    elif intent_name == "CourseScheduleIntent" : ##
        respose_text="Please kindly ask me again with the course name given"
        gradudateInfo = datautil.GraduateProgrammeInfo()
-       CourseName=req.get("queryResult").get("parameters").get("CourseName")
+       #Explaination: Start to get course name
+       CourseName=""
+       #Explaination: If previous query does not consists of the course name, try to get the course name in current query by processing raw query text generated by dialogflow.
+       if parsed_param==1:
+           CourseName=processContinuedIntent(req)
+       CourseName0=req.get("queryResult").get("parameters").get("CourseName")
+       #CourseName=""
+       if type(CourseName0)==type([]):
+           if len(CourseName0)>=1:
+               CourseName=CourseName0[0]
+       elif type(CourseName0)==type(""):
+           CourseName=CourseName0
        if CourseName=='Graduate Diploma in Systems Analysis':           
            respose_text = gradudateInfo.read_overview_info(CourseName)["Next Intake"]
        elif CourseName=='Master of Technology in Enterprise Business Analytics':
@@ -160,11 +352,32 @@ def webhook():
             respose_text = gradudateInfo.read_overview_info(CourseName)["Next Intake"]
        elif CourseName=='Master of Technology in Digital Leadership':
             respose_text = gradudateInfo.read_overview_info(CourseName)["Next Intake"]
+       #Explaination: if course name is unobtainable, record the intent name in intent_state.txt     
+       elif CourseName=="":
+           int_stat=open("intent_state.txt","w+")
+           print("333")
+           int_stat.write(intent_name+"\n")
+           int_stat.close()
 
+   #Explaination: This portion process ApplicationIntent intent fulfillment in dialogflow. An internal json file is created to structurize information gathered from ISS webpage. Return application/admission info of each course based on json file.
    elif intent_name == "ApplicationIntent" : ##
        respose_text="Please kindly ask me again with the course name given"
        gradudateInfo = datautil.GraduateProgrammeInfo()
-       CourseName=req.get("queryResult").get("parameters").get("CourseName")
+       #Explaination: Start to get course name
+       CourseName=""
+       #Explaination: If previous query does not consists of the course name, try to get the course name in current query by processing raw query text generated by dialogflow.
+       if parsed_param==1:
+           CourseName=processContinuedIntent(req)
+       CourseName0=req.get("queryResult").get("parameters").get("CourseName")
+       #CourseName=""
+       if type(CourseName0)==type([]):
+           if len(CourseName0)>=1:
+               CourseName=CourseName0[0]
+       elif type(CourseName0)==type(""):
+           CourseName=CourseName0
+
+       #print(CourseName)
+       #print('Graduate Diploma in Systems Analysis' == CourseName)
        if CourseName=='Graduate Diploma in Systems Analysis':           
            respose_text = gradudateInfo.read_admission_info(CourseName)["How to apply"]
        elif CourseName=='Master of Technology in Enterprise Business Analytics':
@@ -175,13 +388,29 @@ def webhook():
            respose_text = gradudateInfo.read_admission_info(CourseName)["How to apply"]
        elif CourseName=='Master of Technology in Digital Leadership':
            respose_text = gradudateInfo.read_admission_info(CourseName)["How to apply"]            
+       #Explaination: if course name is unobtainable, record the intent name in intent_state.txt     
+       elif CourseName=="":
+           int_stat=open("intent_state.txt","w+")
+           print("333")
+           int_stat.write(intent_name+"\n")
+           int_stat.close()
 
-
- 
+   #Explaination: This portion process ExaminationsIntent intent fulfillment in dialogflow. An internal json file is created to structurize information gathered from ISS webpage. Return examination info of each course based on json file.
    elif intent_name == "ExaminationsIntent" : ##
        respose_text="Please kindly ask me again with the course name given"
        gradudateInfo = datautil.GraduateProgrammeInfo()
-       CourseName=req.get("queryResult").get("parameters").get("CourseName")
+       #Explaination: Start to get course name
+       CourseName=""
+       #Explaination: If previous query does not consists of the course name, try to get the course name in current query by processing raw query text generated by dialogflow.
+       if parsed_param==1:
+           CourseName=processContinuedIntent(req)
+       CourseName0=req.get("queryResult").get("parameters").get("CourseName")
+       #CourseName=""
+       if type(CourseName0)==type([]):
+           if len(CourseName0)>=1:
+               CourseName=CourseName0[0]
+       elif type(CourseName0)==type(""):
+           CourseName=CourseName0
        if CourseName=='Graduate Diploma in Systems Analysis':           
            respose_text = 'https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/graduate-diploma-in-systems-analysis'
        elif CourseName=='Master of Technology in Enterprise Business Analytics':
@@ -192,12 +421,28 @@ def webhook():
             respose_text = 'https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-software-engineering'
        elif CourseName=='Master of Technology in Digital Leadership':
             respose_text = 'https://www.iss.nus.edu.sg/graduate-programmes/programme/detail/master-of-technology-in-digital-leadership'
-
+       #Explaination: if course name is unobtainable, record the intent name in intent_state.txt     
+       elif CourseName=="":
+           int_stat=open("intent_state.txt","w+")
+           print("333")
+           int_stat.write(intent_name+"\n")
+           int_stat.close()
+      
+   #Explaination: This portion process CourseModuleIntent intent fulfillment in dialogflow. An internal json file is created to structurize information gathered from ISS webpage. Return module list of each course based on json file.
    elif intent_name == "CourseModuleIntent" : ##
        respose_text="Please kindly ask me again with the course name given"
-       CourseName=req.get("queryResult").get("parameters").get("CourseName")
-       gradudateInfo = datautil.GraduateProgrammeInfo()
-       Info = gradudateInfo.read_modules_info(CourseName)["Items"]
+       #Explaination: Start to get course name
+       CourseName=""
+       #Explaination: If previous query does not consists of the course name, try to get the course name in current query by processing raw query text generated by dialogflow.
+       if parsed_param==1:
+           CourseName=processContinuedIntent(req)
+       CourseName0=req.get("queryResult").get("parameters").get("CourseName")
+       #CourseName=""
+       if type(CourseName0)==type([]):
+           if len(CourseName0)>=1:
+               CourseName=CourseName0[0]
+       elif type(CourseName0)==type(""):
+           CourseName=CourseName0
        if CourseName=='Graduate Diploma in Systems Analysis':           
            respose_text = 'Course List:'
        elif CourseName=='Master of Technology in Enterprise Business Analytics':
@@ -208,6 +453,16 @@ def webhook():
            respose_text = 'Course List:'
        elif CourseName=='Master of Technology in Digital Leadership':
            respose_text = 'Module List: Digital Organisation Models,\nDigital Agility & Change Leadership,\nInnovation by Design\n'
+       #Explaination: if course name is unobtainable, record the intent name in intent_state.txt     
+       elif CourseName=="":
+           int_stat=open("intent_state.txt","w+")
+           print("333")
+           int_stat.write(intent_name+"\n")
+           int_stat.close()
+           return make_response(jsonify({'fulfillmentText': respose_text}))
+
+       gradudateInfo = datautil.GraduateProgrammeInfo()
+       Info = gradudateInfo.read_modules_info(CourseName)["Items"]
 
        if respose_text == 'Course List:':
            respose_text="Module List:\n"
@@ -227,8 +482,47 @@ def webhook():
 # WEBHOOK MAIN ENDPOINT : END
 # ***************************
 
+#Explaination: This subroutine is called when intent_state.txt records a valid unfinished intent query in the last conversation. As prompt is given to user to provide the correct course name, the subroutine is expected to crunch the raw query text. This subroutine is restricted to unfinished query which lack of course name info.
+def processContinuedIntent(req):
+   if 1:
+       CourseName=""
+       if 1:
+           #Explaination: reset the state to proceed as per normal next time.
+           int_stat0=open("intent_state.txt","w+")
+           print ("799")
+           print(req.get("queryResult").get("queryText"))
+           int_stat0.write("NO999\n")
+           int_stat0.close()
+           parsed_param=0
+           #Explaination: get the raw query text
+           temp_str=req.get("queryResult").get("queryText")
+           #Explaination: replace with synonyms
+           temp_str=temp_str.replace("IS","intelligent")
+           temp_str=temp_str.replace("KE","intelligent")
+           temp_str=temp_str.lower()
+           temp_str=temp_str.replace("mtech se","software").replace("mtech in se","software").replace("master in se","software").replace("masters in se","software")
+           temp_str=temp_str.replace("mtech ebac","business").replace("mtech in ebac","business").replace("master in ebac","business").replace("masters in ebac","business").replace("ebac","business")
+           temp_str=temp_str.replace("mtech dl","digital").replace("mtech in dl","digital").replace("master in dl","digital").replace("masters in dl","digital")
+           temp_str=temp_str.replace("diploma sa","analysis").replace("diploma in sa","analysis").replace("gdipsa","analysis")
+           temp_str=temp_str.replace("mtech is","intelligent").replace("mtech in is","intelligent").replace("master in is","intelligent").replace("masters in is","intelligent")
+           temp_str=temp_str.replace("mtech ke","intelligent").replace("mtech in ke","intelligent").replace("master in ke","intelligent").replace("masters in ke","intelligent").replace("knowledge","intelligent")
+
+           #Explaination: analyze each word inside the raw query
+           buff=re.split( " ",temp_str )           
+           for elem in buff:
+                #Explaination: avoid processing on words with commonality among postgraduate courses
+                if elem in ["master","of","technology","in","masters","system","systems","engineering"]: continue
+                #Explaination: finding matching course and return the correct course name. Return empty string if it fails.
+                for coursee in [ 'Graduate Diploma in Systems Analysis', 'Master of Technology in Enterprise Business Analytics', 'Master of Technology in Intelligent Systems', 'Master of Technology in Software Engineering', 'Master of Technology in Digital Leadership']:
+                    if coursee.lower().find(elem)!=-1:
+                        CourseName=coursee
+                        break
+           return CourseName
 
 
 if __name__ == '__main__':
+   intent_state00=open("intent_state.txt","w+")
+   intent_state00.write("NO999\n")
+   intent_state00.close()
    app.run(debug=True, host='0.0.0.0', port=5000)
 

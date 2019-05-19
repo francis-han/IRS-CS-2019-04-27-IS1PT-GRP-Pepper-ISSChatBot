@@ -1,16 +1,14 @@
 ## SECTION 1 : PROJECT TITLE
-## Patient Matching System
+## ISS ChatBot
 
 <img src="Miscellaneous/Banner.gif"
      style="float: left; margin-right: 0px;" />
 
 ---
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-This project is a continuation from the Depression Screening System group project completed during the Machine Reasoning course. As a recap, the Depression Screening System deals with the problem of depression in youths and vulnerable segments of the community going undetected and untreated. It serves as an early warning system to put a spotlight on those vulnerable individuals who are displaying symptoms of depression. These vulnerable individuals can be spotted through the PHQ-9 Survey framework devised with the Depression Screening System. The output from that system is to provide a diagnosis (with a PHQ-9 score) on the level of severity of depression the individuals are having.
-In this phase of project, the objective is to use the PHQ-9 scores of the individuals and match them to the many practitioners in the community partners, hospitals and IMH. 
-Why Patient Matching? When we churn out a list of patients in batches as part of the PHQ-9 Survey, there is also a need to do the matching with practitioners in batches. There are some challenges to match patients to practitioners. First of all, practitioners fall into roughly 3 categories – Counsellors, Psychologists, Psychiatrists. Then there is the time availability of the practitioners, as well as language ability, which are all hard constraints. Also there is location preference and gender preference which are soft constraints. Then there is the cost based on the practitioner selected, which is a soft constraint to minimize it.
-Using the State Space Search techniques embedded in the OptaPlanner, the Patient Matching System is able to optimally match a group of patients against a group of practitioners. The detail of how this match is executed will be covered in the next chapters.
-This system provides benefits to those who are diagnosed with depression by matching appropriate practitioners with the right expertise and in accordance to some set constraints.
+In this project, we are tasked to build a chatbot system for the ISS website. The purpose of this chatbot would be to answer enquiries related to ISS programs, courses, and related information. This project serves to leverage the techniques learned in the Cognitive Systems course.
+We employed the Dialogflow agent for this implementation together with a Python program and its associated libraries. This combination provides the capability for two levels of response, first is a fulfillment from the Python program, and second is Dialogflow. 
+This project gives the team an opportunity to convert our learning into practical use. In this case, providing a way for users to interactively use the ISS website.
 
 
 
@@ -20,11 +18,11 @@ This system provides benefits to those who are diagnosed with depression by matc
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| CAO LIANG            | A0012884E | Architect, Application Logic, DROOLS Rules, Benchmark and Integration    | e0384184@u.nus.edu |
-| GENG LIANGYU         | A0195278M | Web Application, Data Repository and Landing Page                        | e0384909@u.nus.edu |
+| CAO LIANG            | A0012884E | Architect, Python Library, JSON Files, and Integration                   | e0384184@u.nus.edu |
+| GENG LIANGYU         | A0195278M | Web Deployment using Heroku, GUI creation                                | e0384909@u.nus.edu |
 | HAN DONGCHOU FRANCIS | A0195414A | Team Lead, Documentation, and Submission                                 | e0385045@u.nus.edu |
-| ONG BOON PING        | A0195172B | KIE Workflow, DROOLS Rules, and Data Structure                           | e0384803@u.nus.edu |
-| TAN CHIN GEE         | A0195296M | Domain Expert and Documentation                                          | e0384927@u.nus.edu |
+| ONG BOON PING        | A0195172B | DialogFlow Setup, Python main program                                    | e0384803@u.nus.edu |
+| TAN CHIN GEE         | A0195296M | DialogFlow Configuration, Testing and Documentation                      | e0384927@u.nus.edu |
 
 
 ---
@@ -65,27 +63,8 @@ This system provides benefits to those who are diagnosed with depression by matc
 ---
 ## SECTION 7 : MISCELLANEOUS
 
-### BENCHMARK OF DIFFERENT SEARCH TECHNIQUES
+### Test Scenario
 
-A benchmark test was conducted against the various search algorithms as follows. We have made some observations as follows. All hard constraints are met. The level of soft constraints being met varies across the different search algorithms.
-
-> **First Fit Decreasing**
-> This is the slowest search algorithm in our scenario. This demonstrates the main characteristic of construction heuristic vs metaheuristic.
-
-> **Tabu Search**
-> This search made the fastest progress in the beginning but took a long time to converge into global optimum compared to Late Aceptance.
-
-> **Simulated Annealing**
-> This is the slowest search.
-
-> **Late Acceptance**
-> This is the fatest to reach the global optimum.
-
-> **Step Counting Hill Climbing**
-> This has reasonable performance and reached global optimum quite fast.
-
-
-
-<img src="Miscellaneous/SearchResults.gif"
+<img src="Miscellaneous/TestResult.gif"
      style="float: left; margin-right: 0px;" />
 

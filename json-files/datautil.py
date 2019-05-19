@@ -261,11 +261,34 @@ class StackableProgrammeInfo:
             if out_file_path != '':
                 self.write_objs(info_objs, out_file_path)
 
+class StaffInfo:
+    def __init__(self):
+        self.staff_data = self.read_objs('Staff/TeachingStaff.json')['StaffList']
+
+    ## Read objects from json file
+    def read_objs(self, json_file):
+        if not os.path.exists(json_file):
+            return {'CertificateList': []}
+
+        with open(json_file, mode="r", encoding="UTF-8") as json_file:
+            data_objs = json.loads(json_file.read())
+        return data_objs
+
+    ## Read staff info which includes: name, title, courseNameList
+    ##
+    def read_staff_info(self, staff_name):
+        staff_name_check = staff_name.lower().strip()
+        for staff_info in self.staff_data:
+            if staff_info['name'].lower().find(staff_name_check) >= 0:
+                return staff_info
+        return None
+
 
 class DataInfo:
     GRADUATE_INFO = GraduateProgrammeInfo()
     EXECUTIVE_INFO = ExecutiveEducationInfo()
     STACKABLE_INFO = StackableProgrammeInfo()
+    STAFF_INFO = StaffInfo()
     CONTEXT_INFO = {}
 
     def __init__(self):
@@ -286,6 +309,10 @@ class DataInfo:
     @staticmethod
     def get_context_info():
         return DataInfo.CONTEXT_INFO
+
+    @staticmethod
+    def get_staff_info():
+        return DataInfo.STAFF_INFO
 
 if __name__ == '__main__':
    info = DataInfo()
@@ -313,4 +340,8 @@ if __name__ == '__main__':
        course_name="Machine Reasoning", cert_name="Intelligent Reasoning Systems",
        category_name="Artificial Intelligence")
    print("Machine Reasoning course: {}".format(ai_course_info))
+
+   staffInfo = info.get_staff_info()
+   sam_staff = staffInfo.read_staff_info('Gu')
+   print("Staff Gu: {}".format(sam_staff))
    

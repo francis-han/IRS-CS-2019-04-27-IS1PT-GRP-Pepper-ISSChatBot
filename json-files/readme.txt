@@ -7,9 +7,11 @@ This folder includes all structured json files related to different programmes:
      
    - Then create DataInfo to use
      dataInfo = datautil.DataInfo()
+
      graduateInfo = dataInfo.get_graduate_info()
      executiveInfo = dataInfo.get_executive_info()
      stackableInfo = dataInfo.get_stackable_info()
+     staffInfo = info.get_staff_info()
 
      contextInfo = dataInfo.get_context_info()
      

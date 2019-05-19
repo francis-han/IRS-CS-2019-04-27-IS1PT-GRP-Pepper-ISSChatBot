@@ -1,0 +1,122 @@
+{
+  "CertificateList": [
+    {
+      "CertificateName": "Graduate Certificate in Intelligent Reasoning Systems",
+      "Type": "Intelligent Reasoning Systems",
+      "CourseList": [
+        {
+          "name": "NICF - Machine Reasoning (SF)",
+          "duration": "4 days"
+        },
+        {
+          "name": "Cognitive Systems",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - Reasoning Systems (SF)",
+          "duration": "5 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Pattern Recognition Systems",
+      "Type": "Pattern Recognition Systems",
+      "CourseList": [
+        {
+          "name": "NICF- Problem Solving using Pattern Recognition (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "NICF-Intelligent Sensing and Sense Making (SF)",
+          "duration": "4 days"
+        },
+        {
+          "name": "NICF- Pattern Recognition and Machine Learning Systems (SF)",
+          "duration": "5 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Intelligent Sensing Systems",
+      "Type": "Intelligent Sensing Systems",
+      "CourseList": [
+        {
+          "name": "NICF - Vision Systems (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "NICF-Spatial Reasoning from Sensor Data (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "Speech and Sound Sensing Systems",
+          "duration": "4 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Intelligent Software Agents",
+      "Type": "Intelligent Software Agents",
+      "CourseList": [
+        {
+          "name": "Intelligent Process Automation",
+          "duration": "3 days"
+        },
+        {
+          "name": "Software Robots",
+          "duration": "4 days"
+        },
+        {
+          "name": "Self-learning Systems",
+          "duration": "4 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Practical Language Processing",
+      "Type": "Practical Language Processing",
+      "CourseList": [
+        {
+          "name": "NICF - Text Analytics (SF)",
+          "duration": "3 days"
+        },
+        {
+          "name": "NICF - New Media and Sentiment Mining (SF)",
+          "duration": "4 days"
+        },
+        {
+          "name": "NICF- Text Processing using Machine Learning (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "Conversational Interfaces",
+          "duration": "5 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    },
+    {
+      "CertificateName": "Graduate Certificate in Intelligent Robotic Systems",
+      "Type": "Intelligent Robotic Systems",
+      "CourseList": [
+        {
+          "name": "NICF - Robotic Systems (SF)",
+          "duration": "5 days"
+        },
+        {
+          "name": "Autonomous Robots & Vehicles",
+          "duration": "5 days"
+        },
+        {
+          "name": "Human-Robot System Engineering",
+          "duration": "4 days"
+        }
+      ],
+      "extra1": "Practice Module\n(10 man days)"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "StaffList": [
+    {
+      "name": "Barry Adrian SHEPHERD",
+      "title": "Chief, MTech Knowledge Engineering Programme / Chief, MTech Intelligent Systems Programme",
+      "courseNameList": [
+          "NICF- Recommender Systems (SF)",
+          "Master of Technology in Software Engineering"
+      ]
+    },
+    {
+      "name": "FAN Zhen Zhen",
+      "title": "Senior Lecturer & Consultant, Artificial Intelligence Practice",
+      "courseNameList": [
+        "NICF- Reasoning Systems (SF)",
+        "NICF- Text Processing using Machine Learning (SF)",
+        "NICF- Text Analytics (SF)"
+      ]
+    },
+    {
+      "name": "GU Zhan",
+      "title": "Lecturer & Consultant, Artificial Intelligence Practice",
+      "courseNameList": [
+        "NICF- Machine Reasoning (SF)",
+        "NICF- Reasoning Systems (SF)",
+        "NICF- Statistics Bootcamp (SF)"
+      ]
+    },
+    {
+      "name": "TIAN Jing",
+      "title": "Lecturer & Consultant, Artificial Intelligence Practice",
+      "courseNameList": [
+        "NICF- Intelligent Sensing and Sense Making (SF)",
+        "NICF- Robotic Systems (SF)",
+        "NICF- Vision Systems (SF)",
+        "NICF- Spatial Reasoning from Sensor Data (SF)",
+        "NICF- Predictive Analytics - Insights of Trends and Irregularities (SF)"
+      ]
+    },
+    {
+      "name": "WANG Aobo",
+      "title": "Lecturer & Consultant, Artificial Intelligence Practice",
+      "courseNameList": [
+        "NICF- New Media and Sentiment Mining (SF)"
+      ]
+    },
+    {
+      "name": "ZHU Fang Ming",
+      "title": "Senior Lecturer & Consultant, Artificial Intelligence Practice",
+      "courseNameList": [
+        "NICF- Reasoning Systems (SF)",
+        "NICF- Problem Solving using Pattern Recognition (SF)",
+        "NICF- Pattern Recognition and Machine Learning Systems (SF)",
+        "NICF- Predictive Analytics - Insights of Trends and Irregularities (SF)"
+      ]
+    }
+    ]
+}

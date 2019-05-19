@@ -1,0 +1,873 @@
+{
+    "CertificateList": [
+        {
+            "CertificateName": "Graduate Certificate in Management of Business Analytics Project",
+            "Type": "Analytics Project Management and Delivery",
+            "CourseList": [
+                {
+                    "name": "NICF- Data Analytics Process and Best Practice (SF)",
+                    "duration": "3 days",
+                    "code": "DABP",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--data-analytics-process-and-best-practice-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Data Analytics Process and Best Practice (SF)",
+                        "Reference No": "CRS-Q-0033517-ICT",
+                        "Part of": "Graduate Certificate in Business Analytics Practice, Graduate Certificate in Management of Business Analytics Project",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Jeryn LIN at tel: 66017926 or email for more details.",
+                        "description": [
+                            "An organisation\u2019s analytics potential depends on its capability to process and manage the acquired data (both internal & external). The credibility and usefulness of sophisticated data analytics solutions rest upon good quality data. But good, clean data cannot always be readily available.",
+                            "Over a period of 3 days, the course will provide participants with a practical understanding of Data Analytics Process and Best Practices so that their analytics activity downstream will be more credible and useful.",
+                            "The course provides an intermediate pathway into technical \u2018methods\u2019 courses in the ISS portfolio (such as those in the ISS-NICF Enterprise Business Analytics syllabus). This course is part of the Data Science , Graduate Certificate in Management of Business Analytics Project, and Graduate Certificate in Business Analytics Practice Series offered by NUS-ISS.",
+                            "This course need only be taken once throughout the Stackable Certificate Programme in Data Science."
+                        ]
+                    },
+                    "takeaway": [
+                        "Understand an end to end view of data analytics process.",
+                        "Structure a framework to align analytics objectives with business goals.",
+                        "Apply procedures and techniques for data sampling, data cleaning & audit.",
+                        "Apply procedures and techniques for data transformation, feature selection and generating data sets for model build & test, including data balancing.",
+                        "Propose and conduct statistical techniques for data exploration and modeling.",
+                        "Understand the methods and metrics involved in model testing and evaluation",
+                        "Understand the issues and methods involved in model deployment",
+                        "Advice on code of conduct to be adhered for prudent data management."
+                    ],
+                    "whoattend": [
+                        "Data Analysts",
+                        "Research Analysts",
+                        "Data Scientists",
+                        "Analytics Consultants",
+                        "Analytics Engineers",
+                        "Knowledge Engineers",
+                        "AI professionals"
+                    ],
+                    "whatcovered": [
+                        "Business Analytics Framework & Process",
+                        "Identifying and Eliciting Goals",
+                        "Data Collection and Survey Sampling",
+                        "Data Exploration",
+                        "Data Cleaning & Preparation",
+                        "Model Building Process",
+                        "Model Deployment"
+                    ]
+                },
+                {
+                    "name": "NICF- Data Storytelling (SF)",
+                    "duration": "3 days",
+                    "code": "DST-SF",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--data-storytelling-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Data Storytelling (SF)",
+                        "Reference No": "CRS-Q-0034785-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Jeryn LIN at tel: 66017926 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Apply different types of data related questions and analytics patterns",
+                        "Deconstruct principles of data visualisation",
+                        "Apply exploratory, descriptive and diagnostic analysis",
+                        "Apply storytelling framework",
+                        "Create presentations that effectively present the data story",
+                        "Design a dashboard for achieving business outcomes",
+                        "Design and Create Infographics for broad communication"
+                    ],
+                    "whoattend": [
+                        "Participants working in client facing roles, interacting with various stakeholders or departments within the organisation, leading teams or working with data analysis/data visualisation regularly would find this course useful",
+                        "Participants with a work experience of 2 years or more will appreciate this course better",
+                        "Pre-requisite",
+                        "Basic Excel and PowerPoint skills are assumed.",
+                        "Participants with limited knowledge of the above may consider acquiring them via GCF Learn for Excel & PowerPoint"
+                    ],
+                    "whatcovered": [
+                        "Data story boarding framework and workshop",
+                        "Visual selection framework and workshop",
+                        "Best practices of visualisation and presentation, theory and workshop",
+                        "Dashboarding concepts and workshop",
+                        "Infographics best practices and workshop"
+                    ]
+                },
+                {
+                    "name": "NICF- Data Governance & Protection (SF)",
+                    "duration": "3 days",
+                    "code": "DAG-SF",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2760.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--data-governance-protection-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Data Governance & Protection (SF)",
+                        "Reference No": "CRS-Q-0034797-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9am - 5pm",
+                        "Enquiry": "Please contact Ms. Jessie NEO at tel: 66017921 or email for more details.",
+                        "description": [
+                            "Information is often the most valuable enterprise asset in today\u2019s digital economy. Data is rationalised to create information, which in turn becomes knowledge, and this forms the basis for wisdom and the fuel for analytics, critical in decision-making.",
+                            "Data governance is the operating discipline for managing data and information as a key enterprise asset. This discipline includes organisation, processes and tools for establishing and exercising decisions rights regarding valuation and management of data.",
+                            "In this course, you will learn about the key aspects of data governance, such as decision-making authority, policies, standards, data quality and data protection."
+                        ]
+                    },
+                    "takeaway": [
+                        "Set direction and objectives of data governance throughout the organisation based on its data management principles and organisational objectives",
+                        "Define and document roles and responsibilities of the data governance team and user departments in data governance guidelines",
+                        "Review and develop processes on how data governance objectives can be achieved",
+                        "Understand and recommend corrective actions to resolve data governance issues",
+                        "Establish and maintain systems to check compliance against data governance guidelines"
+                    ],
+                    "whoattend": [
+                        "Managers and IT professionals who have to provide IT advisory and support in compliance legislation, policies and guidelines in relation to data management in the organisation",
+                        "Managers who are involved in protecting data as an organisation asset"
+                    ],
+                    "whatcovered": [
+                        "Information and the Power of Data",
+                        "Data Principles, Policies and Procedures",
+                        "Defining a Data Organisation Structure",
+                        "Data Privacy",
+                        "Data Sharing",
+                        "Data Protection"
+                    ]
+                },
+                {
+                    "name": "NICF- Managing Business Analytics Projects (SF)",
+                    "duration": "3 days",
+                    "code": "MBAPSF",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--managing-business-analytics-projects-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Managing Business Analytics Projects (SF)",
+                        "Reference No": "CRS-Q-0036483-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9:00am - 5:15pm",
+                        "PDU": "19.25PDU and PD hours are available for this course",
+                        "Enquiry": "Please contact Ms. Geraldine WONG at tel: 65168554 or email for more details.",
+                        "description": [
+                            "Business Analytics has earned a place as one of the core disruptors of the digital age. Many companies\u2019 business analytics initiatives have moved to production, with some proven success, and now there is a continuing push to leverage new data technologies to power business intelligence. Many government agencies and private companies have jumped on this bandwagon and are heavily investing in business analytics projects to gain new insights in order to acquire a competitive edge to serve their customers and citizens. According to Gartner Research, the worldwide market for analytics will remain the top focus for CIOs through 2017. This report cited that more than 30% of organisations have invested in analysing \u201cbig data\u201d but only a quarter (8% of the total) have made it into production! It remains as a major challenge for those tasked to deliver and implement these analytical capabilities and programmes successfully. This course brings together latest thinking and best practices from the various domains of Agile, Lean and Traditional project management to equip business analytics teams with the knowledge and skills to effectively and successfully manage business analytics projects. Upon successful completion of this course, you will earn 19.25 PDUs (Technical: 11.5, Leadership: 5, Strategy: 2.75) that can be used to maintain your PMP\u00ae credential. Note that for the purpose of PDU reporting by those with PMP\u00ae credentials, the PMI REP Provider Number of ISS is \u201c2339\u201d."
+                        ]
+                    },
+                    "takeaway": [
+                        "Understand the unique nature and challenges of business analytics projects",
+                        "Learn how to correctly perform inception for a business analytics project",
+                        "Learn how to choose and adapt the different project lifecycles, especially agile practices for your project",
+                        "Develop the initial and subsequent iterative plans for your project",
+                        "Learn how to manage the construction phase",
+                        "Understand the considerations for retrospective and transition requirements"
+                    ],
+                    "whoattend": [
+                        "The course has been designed for:",
+                        "Primarily Project Managers, data scientists, IT and business professionals sponsoring, managing and participating in business analytics projects",
+                        "Those who have an active interest in managing the various types of business analytics projects including Text, Predictive and Customer Analytics"
+                    ],
+                    "whatcovered": [
+                        "Introduction to Business Analytics Projects",
+                        "Project Inception/Initiation",
+                        "Project Execution/Construction",
+                        "Retrospective and Transition"
+                    ]
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Business Analytics Practice",
+            "Type": "Core Analytics Techniques",
+            "CourseList": [
+                {
+                    "name": "NICF- Statistics Bootcamp (SF)",
+                    "duration": "5 days",
+                    "code": "SB-SF",
+                    "category": "Data Science",
+                    "days": "5.0",
+                    "price": "4000.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--statistics-bootcamp-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Statistics Bootcamp (SF)",
+                        "Reference No": "CRS-Q-0036092-ICT",
+                        "Part of": "-",
+                        "Duration": "5 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Geraldine WONG at tel: 65168554 or email for more details.",
+                        "description": [
+                            "This course aims to train you to effectively use R in your statistical analysis for accurate and impactful data-driven decision making. The Statistics Bootcamp is more than just an introduction to statistics, it teaches you how to use R, a command driven language for quick visual analytics. In addition, you will be presented with multiple business cases that will be solved in the course of lecturing and hands-on workshops.",
+                            "The lecturers will give extensive illustrations of statistical principles and techniques. Each statistical technique taught will be demonstrated using R so that you can practise R programming in a series of workshops. In addition, you will get to dabble with data visualisation including creating graphs. Ultimately, you will gain insights into how to use statistics to answer your business questions."
+                        ]
+                    },
+                    "takeaway": [
+                        "Use R functions for statistical analysis",
+                        "Be proficient in interactive visual analytics",
+                        "Compare and evaluate different business strategies",
+                        "Make predictions based on relevant factors",
+                        "Make better data-driven decisions"
+                    ],
+                    "whoattend": [
+                        "Individuals with some IT background and would like to learn statistics with the latest tools, e.g. R",
+                        "Individuals who have learnt statistics a long while ago and would like to refresh or update their statistics knowledge",
+                        "Individuals who have no knowledge or experience in business analytics but would like to explore work opportunities in analytics.",
+                        "Organisation users who need to begin their journey to master the state-of-the-art analytics techniques."
+                    ],
+                    "whatcovered": [
+                        "Visualising and summarising data for quick insights",
+                        "Compare and evaluate different business strategies",
+                        "Prediction based on relevant factors",
+                        "Industry application examples"
+                    ]
+                },
+                {
+                    "name": "NICF- Data Analytics Process and Best Practice (SF)",
+                    "duration": "3 days",
+                    "code": "DABP",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--data-analytics-process-and-best-practice-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Data Analytics Process and Best Practice (SF)",
+                        "Reference No": "CRS-Q-0033517-ICT",
+                        "Part of": "Graduate Certificate in Business Analytics Practice, Graduate Certificate in Management of Business Analytics Project",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Jeryn LIN at tel: 66017926 or email for more details.",
+                        "description": [
+                            "An organisation\u2019s analytics potential depends on its capability to process and manage the acquired data (both internal & external). The credibility and usefulness of sophisticated data analytics solutions rest upon good quality data. But good, clean data cannot always be readily available.",
+                            "Over a period of 3 days, the course will provide participants with a practical understanding of Data Analytics Process and Best Practices so that their analytics activity downstream will be more credible and useful.",
+                            "The course provides an intermediate pathway into technical \u2018methods\u2019 courses in the ISS portfolio (such as those in the ISS-NICF Enterprise Business Analytics syllabus). This course is part of the Data Science , Graduate Certificate in Management of Business Analytics Project, and Graduate Certificate in Business Analytics Practice Series offered by NUS-ISS.",
+                            "This course need only be taken once throughout the Stackable Certificate Programme in Data Science."
+                        ]
+                    },
+                    "takeaway": [
+                        "Understand an end to end view of data analytics process.",
+                        "Structure a framework to align analytics objectives with business goals.",
+                        "Apply procedures and techniques for data sampling, data cleaning & audit.",
+                        "Apply procedures and techniques for data transformation, feature selection and generating data sets for model build & test, including data balancing.",
+                        "Propose and conduct statistical techniques for data exploration and modeling.",
+                        "Understand the methods and metrics involved in model testing and evaluation",
+                        "Understand the issues and methods involved in model deployment",
+                        "Advice on code of conduct to be adhered for prudent data management."
+                    ],
+                    "whoattend": [
+                        "Data Analysts",
+                        "Research Analysts",
+                        "Data Scientists",
+                        "Analytics Consultants",
+                        "Analytics Engineers",
+                        "Knowledge Engineers",
+                        "AI professionals"
+                    ],
+                    "whatcovered": [
+                        "Business Analytics Framework & Process",
+                        "Identifying and Eliciting Goals",
+                        "Data Collection and Survey Sampling",
+                        "Data Exploration",
+                        "Data Cleaning & Preparation",
+                        "Model Building Process",
+                        "Model Deployment"
+                    ]
+                },
+                {
+                    "name": "NICF- Predictive Analytics - Insights of Trends and Irregularities (SF)",
+                    "duration": "5 days",
+                    "code": "PA-SF",
+                    "category": "Data Science",
+                    "days": "5.0",
+                    "price": "4500.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--predictive-analytics---insights-of-trends-and-irregularities-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Predictive Analytics - Insights of Trends and Irregularities (SF)",
+                        "Reference No": "CRS-Q-0034793-ICT",
+                        "Part of": "-",
+                        "Duration": "5 days",
+                        "Course Time": "9am-5pm",
+                        "Enquiry": "Please contact Ms. Geraldine WONG at tel: 65168554 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Identify where predictive analytics can be applied and the benefits which can be derived",
+                        "Evaluate the predictive model's objectives and data available",
+                        "Design the predictive analytics process",
+                        "Assess and select the appropriate testing methods to validate the predictive models",
+                        "Analyse the results and communicate the decision to senior management and facilitate deployment to support the end users"
+                    ],
+                    "whoattend": [
+                        "IT professionals who need to apply predictive analytics for improving business processes and decision making",
+                        "Data/business analysts who are interested in obtaining knowledge in business analytics to add more value and insights to their recommendations",
+                        "Domain specialists and anyone planning to undertake business analytics projects",
+                        "Sales personnel who need to do realistic demand/sales forecasting",
+                        "Professionals in charge of inventory planning"
+                    ],
+                    "whatcovered": [
+                        "Introduction to predictive analytics",
+                        "How to make predictions using multiple regression models",
+                        "Times series modelling and applications",
+                        "Introduction to logistic regression modelling",
+                        "Predictive modelling using decision trees",
+                        "Predictive modelling using neutral networks",
+                        "Practical case studies in workshops conducted in R/excel / SPSS / JMP"
+                    ]
+                },
+                {
+                    "name": "NICF- Text Analytics (SF)",
+                    "duration": "3 days",
+                    "code": "TA-SF",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--text-analytics-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Text Analytics (SF)",
+                        "Reference No": "CRS-Q-0034794-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Geraldine WONG at tel: 65168554 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Identify main themes or topics in the collection of documents or textual data (e.g. the prominent issues customers are complaining about).",
+                        "Discover relationships and patterns among topics (e.g. which issues tend to co-occur in complaints).",
+                        "Categorise documents based on discovered topics and user-definable criteria, such as grouping complaints about similar issues for further investigation.",
+                        "Perform sentiment analysis on customers\u2019 comments, reviews, or other forms of opinions to gain a good sense about how customers feel about their company, products and services.",
+                        "Extract useful information from text as structured data to enable integration into the traditional data mining process.",
+                        "Incorporate business understanding and domain knowledge into the analysis through lexical and knowledge resources.",
+                        "Perform the above tasks using the open-source language, R"
+                    ],
+                    "whoattend": [
+                        "Business and IT professionals seeking analytical skills to handle large amounts of textual data (e.g. customer feedbacks, product reviews on social media, etc.) for insights to improve business process and decision making",
+                        "Individuals who have no knowledge or experience in text analytics and would like to gain some knowledge in this area so that they may explore work opportunities in business analytics",
+                        "Data analysts, business users and IT professionals who want to move from the structured data to large amounts of unstructured, text data"
+                    ],
+                    "whatcovered": [
+                        "Identify text analytics solution and platform requirements with IT team",
+                        "Develop term-document frequency matrix to enable lookup of text and documents within the corpus",
+                        "Define the metadata and corpus for the data to be imported into the text analytics repository",
+                        "Develop a standardised set of text analytics artifacts with the relevant stakeholders",
+                        "Modify the text analytics solution to ensure that it produces the expected results",
+                        "Define the process to perform text analytics based on the business requirements and text analytics artifacts"
+                    ]
+                },
+                {
+                    "name": "NICF- Recommender Systems (SF)",
+                    "duration": "3 days",
+                    "code": "RCS",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--recommender-systems-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Recommender Systems (SF)",
+                        "Reference No": "CRS-Q-0033519-ICT",
+                        "Part of": "Graduate Certificate in Business Analytics Practice",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Sherlyn LIM at tel: 65165777 or email for more details.",
+                        "description": [
+                            "Everyday decisions, from which products to buy, movies to watch and restaurants to try, are more and more being put in the hands of a new source: recommendation systems. Recommendation systems work by studying the past behaviours and purchases of users along with their preferences and product ratings. Using these and other relevant data they are able to provide recommendations and choices of interest to users in terms of \u201cRelevant Job postings\u201d, \u201cMovies of Interest\u201d, \u201cSuggested Videos\u201d, \u201cPeople who bought this also bought this\u201d etc.",
+                            "Recommender systems have been widely used by online shopping companies such as Amazon.com. They play a critical role in analysing customer transactions and web browsing behaviours to provide sound recommendations for their customers, contributing to sales revenue and profitability. In this regard, a reliable and efficient recommendation system is essential for many companies\u2019 market and business success."
+                        ]
+                    },
+                    "takeaway": [
+                        "Understand the role and applications of recommendation systems",
+                        "Identify the types of data necessary for building a recommendation system",
+                        "Understand the main types of recommender system and be able to decide when each should be used",
+                        "Build recommendation systems using statistical modelling",
+                        "Enhance recommendation systems based on testing and validation"
+                    ],
+                    "whoattend": [
+                        "This course is intended for data analysts and marketers who are interested in using data and analytics to understand customer behaviours and preferences and to make personalised recommendations to users."
+                    ],
+                    "whatcovered": [
+                        "Introduction to Recommender Systems",
+                        "Making recommendations using Market Basket Analysis methods",
+                        "Making recommendations using Content-Based approaches",
+                        "Making recommendations using Collaborative Filtering (part A)",
+                        "Making recommendations using Collaborative Filtering (part B)",
+                        "Advanced Recommender Systems Approaches & Issues"
+                    ]
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Customer Analytics",
+            "Type": "Customer Analytics",
+            "CourseList": [
+                {
+                    "name": "NICF- Customer Analytics (SF)",
+                    "duration": "3 days",
+                    "code": "CA-SF",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2760.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--advanced-customer-analytics-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Advanced Customer Analytics (SF)",
+                        "Reference No": "CRS-Q-0034783-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Geraldine WONG at tel: 65168554 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Understand latest developments in CRM",
+                        "Apply advanced predictive analytics methodologies to develop targeting tools for various customer segments and apply the tools for efficient campaign targeting.",
+                        "Learn how to estimate Customer Life Time Value or the customer revenue so that it can be used as an additional dimension for decision making together with analytics tools which will further enhance optimising marketing budget and increase profitability.",
+                        "Develop and apply attrition models and event triggers to retain customers and thus prevent revenue loss."
+                    ],
+                    "whoattend": [
+                        "Marketing practitioners and data analysts preferably with more than two years of experience",
+                        "Professionals who have an active interest in customer analytics",
+                        "Marketing Managers, CRM Managers, Senior Marketing Analysts and Marketing Analysts",
+                        "Business Development Managers, Senior Business Analysts and Business Analysts",
+                        "Data Managers, Senior Data Analysts, Senior Information Analysts, and Information Analysts"
+                    ],
+                    "whatcovered": [
+                        "Latest developments in CRM",
+                        "Application of Customer Analytics in designing, developing and communicating offer effectively",
+                        "Deep Dive in Customer Lifetime Value/ Revenue calculation",
+                        "Response and Propensity Modelling for efficient campaign targeting",
+                        "Event Triggers and Attrition Modelling for customer retention management"
+                    ]
+                },
+                {
+                    "name": "NICF- Advanced Customer Analytics (SF)",
+                    "duration": "3 days",
+                    "code": "ACA-SF",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--advanced-customer-analytics-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Advanced Customer Analytics (SF)",
+                        "Reference No": "CRS-Q-0034783-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Geraldine WONG at tel: 65168554 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Understand latest developments in CRM",
+                        "Apply advanced predictive analytics methodologies to develop targeting tools for various customer segments and apply the tools for efficient campaign targeting.",
+                        "Learn how to estimate Customer Life Time Value or the customer revenue so that it can be used as an additional dimension for decision making together with analytics tools which will further enhance optimising marketing budget and increase profitability.",
+                        "Develop and apply attrition models and event triggers to retain customers and thus prevent revenue loss."
+                    ],
+                    "whoattend": [
+                        "Marketing practitioners and data analysts preferably with more than two years of experience",
+                        "Professionals who have an active interest in customer analytics",
+                        "Marketing Managers, CRM Managers, Senior Marketing Analysts and Marketing Analysts",
+                        "Business Development Managers, Senior Business Analysts and Business Analysts",
+                        "Data Managers, Senior Data Analysts, Senior Information Analysts, and Information Analysts"
+                    ],
+                    "whatcovered": [
+                        "Latest developments in CRM",
+                        "Application of Customer Analytics in designing, developing and communicating offer effectively",
+                        "Deep Dive in Customer Lifetime Value/ Revenue calculation",
+                        "Response and Propensity Modelling for efficient campaign targeting",
+                        "Event Triggers and Attrition Modelling for customer retention management"
+                    ]
+                },
+                {
+                    "name": "NICF- Campaign Analytics (SF)",
+                    "duration": "3 days",
+                    "code": "CMG",
+                    "category": "Artificial Intelligence",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf-campaign-analytics-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Campaign Analytics (SF)",
+                        "Reference No": "CRS-Q-0037779-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Sherlyn LIM at tel: 65165777 or email for more details.",
+                        "description": [
+                            "Campaign analytics course enable participants to apply data analytics for designing, execution and monitoring marketing campaigns for achieving stated business growth. Companies these days have access to large customer databases that can be leveraged to facilitate personalized, one-to-one marketing along with traditional mass communication tools. Professionals need to know, how to set up tests within the traditional and digital world including social channels, execute analysis, interpret those results and assess their ROI. Successful planning, optimization, execution and measure of such campaigns require detailed knowledge of campaign management concepts, methods, analytical tools, data modelling techniques, KPIs to support decisions making and action.",
+                            "This is a hands-on course that teaches you how to select optimal mix of media channels, best creative(s) for campaign and measure effectiveness of overall campaign. Topics will be taught by practical workshops using combination of various software like SPSS statistics, SPSS Modeller, and Excel.",
+                            "This course is part of the Data Science and Graduate Certificate in Customer Analytics Series offered by NUS-ISS. It is the third course in a series of three courses for the Graduate Certificate in Customer Analytics. Candidates interested in Stackable Certificate Programme in Data Science must complete two Fundamental Certificates before registering for this certificate as this is a certificate at specialist level."
+                        ]
+                    },
+                    "takeaway": [
+                        "Acquire comprehensive knowledge of Media Landscape and its role in marketing strategy",
+                        "Enlist key business decisions associated with various stages of campaign strategy",
+                        "Evaluate the quality of creatives and its impact on marketing goals",
+                        "Develop Audience targeting strategy",
+                        "Measuring the ROI of various media channels",
+                        "Apply the knowledge of analytics modelling solutions to measure the short-term and long-term impacts of media channels on business KPIs"
+                    ],
+                    "whoattend": [
+                        "Marketing practitioners and data analysts preferably with more than two years of experience",
+                        "Professionals who have an active interest in campaign analytics and consumer insights domain",
+                        "Marketing Managers, Media Managers, Senior Marketing Analysts and Marketing Analysts",
+                        "Business Development Managers, Senior Business Analysts and Business Analysts",
+                        "Data Managers, Senior Data Analysts, Senior Information Analysts, and Information Analysts"
+                    ],
+                    "whatcovered": [
+                        "Understanding of Media Landscape",
+                        "Key Decisions and relevant KPIs for Campaign Management",
+                        "Evaluating creative copy for campaign",
+                        "Develop Audience targeting",
+                        "Marketing Mix Modelling to measure media ROI",
+                        "Measure impact of media on brand equity"
+                    ]
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Big Data Engineering & Web Analytics",
+            "Type": "Big Data Processing",
+            "CourseList": [
+                {
+                    "name": "NICF- Feature Engineering and Analytics using IOT Data (SF)",
+                    "duration": "3 days",
+                    "code": "FEAIOT",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--feature-engineering-and-analytics-using-iot-data-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Feature Engineering and Analytics using IOT Data (SF)",
+                        "Reference No": "CRS-Q-0037780-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Sherlyn LIM at tel: 65165777 or email for more details.",
+                        "description": [
+                            "In the last few years, continuous streaming of data from sensors has emerged as one of the most promising data sources, fuelling a number of interesting developments in \u201cInternet of Things (IoT)\u201d. This continuous streaming of information must be coupled with a means to analyse the data and create the corresponding analytics models, and put these models back to the edge nodes in IoT network. Given the fast pace of change to connected devices and the perspective of data science, one needs to understand and explore feature engineering of IoT or sensor data.",
+                            "This course will equip analytics professionals and managers with an understanding of how data are ingested, transformed, the addition of constructed new fields and the removal of distracting fields. These are done with the knowledge of how the representation model operates, making it easy for Machine Learning model for different output representation.",
+                            "The main objective of this course is to provide participants with a practical understanding of Feature Engineering and skills of analysing IoT data and use them effectively to obtain analytics insights.",
+                            "This course is part of the Data Science Series offered by NUS-ISS. This is also a stackable course in a series of three courses leading to a Graduate Certificate in Big Data Engineering and Web Analytics. Participants who are interested in Stackable Programme in Data Science must complete two Fundamental Certificates before registering for this Specialist Certificate."
+                        ]
+                    },
+                    "takeaway": [
+                        "Design suitable strategy on harnessing IoT analytics to create business value.",
+                        "Classify and contextualise different architectural solutions to deal with feature analytics pertinent to IoT.",
+                        "Evaluate various major cloud vendors in the market and their services/libraries/framework for IoT analytics.",
+                        "Identify a framework to classify processing and decisions in the cloud and/or edge using cognitive computing (Machine Learning/Deep Learning) libraries for a given business case.",
+                        "Understand and use various data sources, data visualisations and insight generation techniques to create intelligence.",
+                        "Understand domain specific variation needed for feature engineering while applying to final solution developed using analytics."
+                    ],
+                    "whoattend": [
+                        "Professionals who have done analytics for some years and realised that there are gaps/issues in data preparation and analytics processes when it comes to IoT data.",
+                        "IoT professionals who plan to embark upon analytics journey in their organisation and want to approach analytics in a structured manner to design and better handle analytics on IoT data.",
+                        "Beginners who are learning how to perform analytics activities and need more explicit guidance from experienced professionals, on how to engage in IoT analytics exercises properly, with a focus on upstream processes for IoT."
+                    ],
+                    "whatcovered": [
+                        "Managing data ingestion, storage and processing via data lakes",
+                        "Selecting optimal time window for aggregating sensor data",
+                        "Application of well-known data mining algorithms for IoT data",
+                        "Practical business use cases of end-to-end solution with IoT analytics",
+                        "Demonstration of the Economics of IoT analytics"
+                    ]
+                },
+                {
+                    "name": "Graph & Web Mining",
+                    "duration": "3 days"
+                },
+                {
+                    "name": "NICF- Big Data Engineering for Analytics (SF)",
+                    "duration": "3 days",
+                    "code": "BEAD-SF",
+                    "category": "Data Science",
+                    "days": "5.0",
+                    "price": "4500.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--big-data-engineering-for-analytics-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Big Data Engineering for Analytics (SF)",
+                        "Reference No": "CRS-Q-0035470-ICT",
+                        "Part of": "-",
+                        "Duration": "5 days",
+                        "Course Time": "9:00am - 5:00pm",
+                        "Enquiry": "Please contact Ms. Jeryn LIN at tel: 66017926 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Understand the growth of big data and need for a scalable processing framework. Understand the fundamental characteristics, storage, analysis techniques and the relevant distributions",
+                        "Understand the distributed storage essentials, storage needs, and relevant architectural mechanism in processing large amounts of structured, semi-structured and unstructured data.",
+                        "Gain expertise with the fault-tolerant computing framework (E.g. YARN) by setting up pseudo cluster nodes or cloud based nodes for processing big data. .",
+                        "Construct configurable and executable tasks using the In Memory Processing frameworks (E.g. Spark Core). Understand the nuances of writing functional programs and use the core libraries to manipulate the large corpse of unstructured data residing as Resilient Distributed Datasets.",
+                        "Organize, store and manipulate the collected data using processing libraries. For example, using special statistical operation and stream processing data tools (E.g. Spark Special Libraries).",
+                        "Understand various data processing, querying and persistence (E.g. Spark QL APIs) available for usage in RDD\u2019s context. Perform tasks such as filtering, selection and categorization."
+                    ],
+                    "whoattend": [
+                        "Business and IT professionals seeking analytical skills to handle large amounts of unstructured data (Data lake e.g. customer feedbacks, product reviews on social media, phone call recordings, etc.) for insights to improve business process and decision-making.",
+                        "Individuals who have no knowledge or experience in data engineering for analytics and would like to gain some practical skills in this area so that they may explore work opportunities in data engineering.",
+                        "Data analysts and Data Engineers, who want to move from the structured to large amounts of unstructured data engineering."
+                    ],
+                    "whatcovered": [
+                        "The course objective is to explore the engineering aspects of big data storage, querying and processing techniques. The course aims to teach the students to apply the newly acquired proficiencies by developing data intensive applications using distributed compute platform (e.g. using the Hadoop platform, Spark Framework and relevant tools).",
+                        "A brief module description is provided below:",
+                        "Agenda",
+                        "Module 1: Introduction to Data Science, Data Engineering and Big Data",
+                        "Module 2: Understand Big Data from an Analytics Perspective",
+                        "Module 3: Architectural Viewpoints in Big Data",
+                        "Module 4: The Hadoop Ecosystem for Big Data",
+                        "Module 5: Distributed File Storage",
+                        "Module 6: NoSQL Databases for Big Data",
+                        "Module 7: Spark and Functional Programming for Big Data",
+                        "Module 8: Spark and Resilient Distributed Data Sets",
+                        "Module 9: Spark QL for Big Data",
+                        "Module 10: Spark and Real Time Stream Processing",
+                        "Module 11: Management of Big Data initiatives",
+                        "Discussion and Project Requirement Elaboration",
+                        "Project and Assessment",
+                        "Project Demonstration, Report Submission and Presentations. Each team will work on a practical case study and submit/present their work done regarding the assigned Big Data project.",
+                        "Closing Remarks"
+                    ]
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Practical Language Processing",
+            "Type": "Practical Language Processing",
+            "CourseList": [
+                {
+                    "name": "NICF- Text Analytics (SF)",
+                    "duration": "3 days",
+                    "code": "TA-SF",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--text-analytics-(sf)",
+                    "overview": {
+                        "full_name": "NICF- Text Analytics (SF)",
+                        "Reference No": "CRS-Q-0034794-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Geraldine WONG at tel: 65168554 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Identify main themes or topics in the collection of documents or textual data (e.g. the prominent issues customers are complaining about).",
+                        "Discover relationships and patterns among topics (e.g. which issues tend to co-occur in complaints).",
+                        "Categorise documents based on discovered topics and user-definable criteria, such as grouping complaints about similar issues for further investigation.",
+                        "Perform sentiment analysis on customers\u2019 comments, reviews, or other forms of opinions to gain a good sense about how customers feel about their company, products and services.",
+                        "Extract useful information from text as structured data to enable integration into the traditional data mining process.",
+                        "Incorporate business understanding and domain knowledge into the analysis through lexical and knowledge resources.",
+                        "Perform the above tasks using the open-source language, R"
+                    ],
+                    "whoattend": [
+                        "Business and IT professionals seeking analytical skills to handle large amounts of textual data (e.g. customer feedbacks, product reviews on social media, etc.) for insights to improve business process and decision making",
+                        "Individuals who have no knowledge or experience in text analytics and would like to gain some knowledge in this area so that they may explore work opportunities in business analytics",
+                        "Data analysts, business users and IT professionals who want to move from the structured data to large amounts of unstructured, text data"
+                    ],
+                    "whatcovered": [
+                        "Identify text analytics solution and platform requirements with IT team",
+                        "Develop term-document frequency matrix to enable lookup of text and documents within the corpus",
+                        "Define the metadata and corpus for the data to be imported into the text analytics repository",
+                        "Develop a standardised set of text analytics artifacts with the relevant stakeholders",
+                        "Modify the text analytics solution to ensure that it produces the expected results",
+                        "Define the process to perform text analytics based on the business requirements and text analytics artifacts"
+                    ]
+                },
+                {
+                    "name": "NICF- New Media and Sentiment Mining (SF)",
+                    "duration": "4 days",
+                    "code": "NMSM",
+                    "category": "Data Science",
+                    "days": "4.0",
+                    "price": "3600.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/new-media-and-sentiment-mining-new",
+                    "overview": {
+                        "full_name": "NICF- New Media and Sentiment Mining (SF)",
+                        "Reference No": "CRS-Q-0034007-ICT",
+                        "Part of": "Graduate Certificate in Practical Language Processing",
+                        "Duration": "4 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Sherlyn LIM at tel: 65165777 or email for more details.",
+                        "description": [
+                            "Do you have a lot of textual data from various sources like customers, internal documents, emails, news articles and the social media that comes in fast and furious? Do you want to extract meaningful opinions and sentiments from these textual data automatically? This course further extends the knowledge and skillsets built by the NICF - Text Analytics (SF) course. It equips the attendee with the necessary skillsets to design sentiment analysis system and apply them in various social fields. The ability to process and analyse voluminous textual data provides the participants an edge in this new media age. The objective of this course is to introduce participants to sentiment analysis and its applications. Participants will gain the requisite skills to evaluate the supervised learning algorithms for sentiment classification. They will be able to evaluate and analyse granular meaning of texts from documents and articles. The course will assume that the participants have good knowledge of text analytics and techniques, and some hands on experience of modelling using these techniques using Python. Participants are also expected to have knowledge of statistics at the level of the NICF - Statistics Bootcamp (SF) course. This course is part of the Artificial Intelligence and Graduate Certificate in Practical Language Processing Series offered by NUS-ISS."
+                        ]
+                    },
+                    "takeaway": [
+                        "Identify where sentiment analysis can be applied",
+                        "Evaluate and analyse the classification techniques for sentiment classification and apply it with open source libraries",
+                        "Design a sentiment analysis system for customer feedback and reviews",
+                        "Design a sentiment analysis system for news and social media for applications in finance",
+                        "Evaluate and assess sentiment analysis at a granular level for entities and aspects"
+                    ],
+                    "whoattend": [
+                        "It is applicable for professionals engaged in the following areas.",
+                        "Customer analysts performing deeper analytics on sentiment analysis on customer feedbacks and reviews",
+                        "Data scientists in financial services doing applied sentiment mining for applications in finance including fraud, trading.",
+                        "Data analysts in the financial services who use internal research and external news for research.",
+                        "Analysts who want to automate and extract insights from the voluminous internal and external textual documents in their organisations"
+                    ],
+                    "whatcovered": [
+                        "Introduction to sentiment analysis and its applications in various social domains.",
+                        "Overview of related tasks of NLP to sentiment analysis",
+                        "Supervised learning classification algorithms for sentiment analysis",
+                        "Entity and aspect mining for sentiment analysis",
+                        "Sentiment visualization tools",
+                        "Applications of sentiment analysis to customer analytics and financial applications",
+                        "Sentiment analysis and its psychological basis"
+                    ]
+                },
+                {
+                    "name": "NICF- Text Processing using Machine Learning (SF)",
+                    "duration": "5 days",
+                    "code": "TPML",
+                    "category": "Data Science",
+                    "days": "5.0",
+                    "price": "4500.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/text-processing-using-machine-learning",
+                    "overview": {
+                        "full_name": "NICF- Text Processing using Machine Learning (SF)",
+                        "Reference No": "CRS-Q-0033976-ICT",
+                        "Part of": "Graduate Certificate in Practical Language Processing",
+                        "Duration": "5 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Sherlyn LIM at tel: 65165777 or email for more details.",
+                        "description": [
+                            "We are in an era where AI and analytics are transforming industries and people\u2019s life at an unprecedented pace. In the recently released report from Gartner, Top 10 Strategic Technology Trends for 2018, the top two trends are AI Foundation, and Intelligent Apps and Analytics.",
+                            "AI Foundation focuses on creating systems that learn, adapt and potentially act autonomously, and leveraging AI to enhance decision making, reinvent business models and ecosystems, and remake the customer experience. The technologies and techniques in AI Foundation have grown substantially over the years, as the availability of massive amounts of data has fed machine learning, resulting in the flourishing of more advanced algorithms in the form of deep learning.",
+                            "The second trend, Intelligent Apps and Analytics, clearly states AI\u2019s huge impact in the next-generation data and analytics paradigm, Augmented Analytics. Machine learning is key in this new paradigm, automating data preparation, insight discovery and insight sharing for a broad range of end-users and citizen data scientists, while expert data scientists focusing on specialized problems and on embedding models into applications. The need to perform processing on natural language data is reflected in the illustrated paradigm, identifying three tasks in this area \u2013 natural language processing (NLP), natural language query (NLQ), natural language generation (NLG).",
+                            "In the field of NLP, deep learning techniques has taken a dominant position over tradition statistical methods. Researchers have been reporting much higher performance metrics applying deep learning to solve problems like text classification, language modeling, speech recognition, caption generation, machine translation, document summarization, question answering, etc.",
+                            "This course, Text Processing Using Machine Learning, provides essential knowledge and skills required to perform deep learning based text processing in common tasks encountered in industries. A combination of lectures, case studies, and workshops will be used to cover the application of DL techniques such as word-embedding, Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), LSTMs, character-based language modelling, encoder-decoder models, reinforcement learning, etc.",
+                            "This course is part of the Artificial Intelligence and Graduate Certificate in Practical Language Processing Series offered by NUS-ISS."
+                        ]
+                    },
+                    "takeaway": [
+                        "Identify common tasks that industry has with textual data",
+                        "Gain a practical understanding about advanced machine learning techniques for NLP",
+                        "Acquire proficiency in implementing and creating NLP models for the above tasks",
+                        "Learn how the fundamentals and cutting-edge machine learning approaches work together for performing text-related tasks in industry."
+                    ],
+                    "whoattend": [
+                        "Machine learning engineers",
+                        "Data scientists",
+                        "Data analysts"
+                    ],
+                    "whatcovered": [
+                        "NLP and Deep Learning",
+                        "Deep Learning Foundations",
+                        "Word Embeddings",
+                        "Text Classification",
+                        "Language Models and Recurrent Neural Networks",
+                        "Encoder-Decoder Models",
+                        "Memory Networks",
+                        "NLP & Bayesian Methods",
+                        "Parsing"
+                    ]
+                },
+                {
+                    "name": "Conversational Interfaces",
+                    "duration": "5 days"
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        },
+        {
+            "CertificateName": "Graduate Certificate in Specialised Predictive Modelling & Forecasting",
+            "Type": "Advanced Predictive Modelling Techniques",
+            "CourseList": [
+                {
+                    "name": "NICF- Service Analytics (SF)",
+                    "duration": "3 days",
+                    "code": "SVA-SF",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf-service-analytics-(sf)",
+                    "overview": {
+                        "full_name": "NICF-Service Analytics (SF)",
+                        "Reference No": "CRS-Q-0036919-ICT",
+                        "Part of": "-",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Jessie NEO at tel: 66017921 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Recognise, access, and utilise different types of service data.",
+                        "Understand and apply different sense making and data communication techniques.",
+                        "Evaluate, select, and implement specific analytic tools.",
+                        "Design and deploy analytical frameworks for \u2018service quality\u2019, \u2018customer satisfaction\u2019, and \u2018service innovation\u2019.",
+                        "Apply analytic techniques to the evaluation and performance management.",
+                        "Apply analytics to inform strategic decisions and communicate performance."
+                    ],
+                    "whoattend": [
+                        "It is applicable for professionals engaged in the following areas.",
+                        "Participants would have experience in service industries but not have analytics expertise.",
+                        "The targeted participants are in:",
+                        "Service management",
+                        "Service improvement",
+                        "Service Quality Assurance",
+                        "Service Innovation",
+                        "Service Marketing",
+                        "Service Industry Customer insight and market research"
+                    ],
+                    "whatcovered": [
+                        "Introduction to Service Analytics",
+                        "Customer",
+                        "Customer satisfaction survey",
+                        "Service quality framework",
+                        "Metrics \u2013 GQM method + Data for Service Metrics",
+                        "Advances in Analytics for service processes",
+                        "Sense making and diagnostic tools",
+                        "Quantile regression",
+                        "Multinomial logistics regression",
+                        "Service process improvement"
+                    ]
+                },
+                {
+                    "name": "Generalized Predictive Modeling & Forecasting",
+                    "duration": "5 days"
+                },
+                {
+                    "name": "NICF- Health Analytics (SF)",
+                    "duration": "3 days",
+                    "code": "HA",
+                    "category": "Data Science",
+                    "days": "3.0",
+                    "price": "2700.00",
+                    "course_link": "https://www.iss.nus.edu.sg/executive-education/course/detail/nicf--health-analytics_(sf)",
+                    "overview": {
+                        "full_name": "NICF- Health Analytics (SF)",
+                        "Reference No": "CRS-Q-0033516-ICT",
+                        "Part of": "Graduate Certificate in Specialised Predictive Modelling & Forecasting",
+                        "Duration": "3 days",
+                        "Course Time": "9.00am - 5.00pm",
+                        "Enquiry": "Please contact Ms. Jessie NEO at tel: 66017921 or email for more details.",
+                        "description": []
+                    },
+                    "takeaway": [
+                        "Understand health analytics and how it is present in the various health systems in Singapore and globally",
+                        "Know the fundamentals of health analytics",
+                        "Acquire health analytics application techniques",
+                        "Apply models and analyze medical data use cases with Excel",
+                        "Evaluation of health data through processing and visualizing",
+                        "Learn knowledge on the medical imaging domain, its applications and techniques",
+                        "Acquire knowledge and skills in medical databases, indexing methods and management"
+                    ],
+                    "whoattend": [
+                        "This is an intermediate course, and is\u00a0applicable for anyone interested in health-related analytics."
+                    ],
+                    "whatcovered": [
+                        "Introduction to Health Analytics",
+                        "Fundamental Analytical Techniques for Big Data in Health",
+                        "Advanced Analytical Techniques and Health Data Visualization",
+                        "Health Data Analytics with Excel",
+                        "Fundamentals of Medical Image Analytics Management of Medical Image Database"
+                    ]
+                }
+            ],
+            "extra1": "Practice Module\n(10 man days)"
+        }
+    ]
+}

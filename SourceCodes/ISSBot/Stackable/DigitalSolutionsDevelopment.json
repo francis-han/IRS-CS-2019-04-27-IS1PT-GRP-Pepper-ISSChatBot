@@ -1,0 +1,30 @@
+{
+    "CertificateList": [
+        {
+			"CertificateName": "NUS-ISS Stackable Certificate Programmes in Digital Solutions Development",
+			"Type": "Architecting Scalable Systems",
+			"CourseList": [
+				{
+					"name": "NICF- NUS-ISS Certificate in Digital Solutions Development - Foundations (SF)",
+					"description": "Enterprise Solution Development: C#, SQL, Object Oriented Programming, Enterprise N-Tier Application Development."
+				},
+				{
+					"name": "NICF- NUS-ISS Certificate in Digital Solutions Development - Design (SF)",
+					"description": "Software Analysis and Design, Software Engineering"
+				},
+				{
+					"name": "NICF- NUS-ISS Certificate in Digital Solutions Development - Web Applications (SF)",
+					"description": "Web Application Development: JAVA, RESTFUL server side, web design, HTML and CSS."
+				},
+				{
+					"name": "NICF- NUS-ISS Certificate in Digital Solutions Development - Mobility Applications (SF)",
+					"description": "Mobile Application Development: mobile application design, ASP.NET, mobile web and mobile native app using Android, HTML and CSS."
+				},
+				{
+					"name": "NUS Graduate Diploma in Systems Analysis - Capstone & Internship",
+					"description": "Capstone project delivery and 5-months internship: gaining relevant professional experience, project management skills, and building soft skills in actual work environment."
+				}
+			]
+		}
+    ]
+}

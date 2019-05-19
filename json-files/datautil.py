@@ -261,22 +261,49 @@ class StackableProgrammeInfo:
             if out_file_path != '':
                 self.write_objs(info_objs, out_file_path)
 
+
+class DataInfo:
+    GRADUATE_INFO = GraduateProgrammeInfo()
+    EXECUTIVE_INFO = ExecutiveEducationInfo()
+    STACKABLE_INFO = StackableProgrammeInfo()
+    CONTEXT_INFO = {}
+
+    def __init__(self):
+        self.data = ""
+
+    @staticmethod
+    def get_graduate_info():
+        return DataInfo.GRADUATE_INFO
+
+    @staticmethod
+    def get_executive_info():
+        return DataInfo.EXECUTIVE_INFO
+
+    @staticmethod
+    def get_stackable_info():
+        return DataInfo.STACKABLE_INFO
+
+    @staticmethod
+    def get_context_info():
+        return DataInfo.CONTEXT_INFO
+
 if __name__ == '__main__':
-   # gradudateInfo = GraduateProgrammeInfo()
-   # durationInfo = gradudateInfo.read_overview_info("Master of Technology in Intelligent Systems")["Duration"]
-   # print("durationInfo: {}".format(durationInfo))
-   # introInfo = gradudateInfo.read_modules_info("Master of Technology in Intelligent Systems")["Introduction"]
-   # print("introInfo: {}".format(introInfo))
-   # applyInfo = gradudateInfo.read_admission_info("Master of Technology in Intelligent Systems")["How to apply"]
-   # print("applyInfo: {}".format(applyInfo))
-   executiveInfo = ExecutiveEducationInfo()
+   info = DataInfo()
+   gradudateInfo = info.get_graduate_info()
+   durationInfo = gradudateInfo.read_overview_info("Master of Technology in Intelligent Systems")["Duration"]
+   print("durationInfo: {}".format(durationInfo))
+   introInfo = gradudateInfo.read_modules_info("Master of Technology in Intelligent Systems")["Introduction"]
+   print("introInfo: {}".format(introInfo))
+   applyInfo = gradudateInfo.read_admission_info("Master of Technology in Intelligent Systems")["How to apply"]
+   print("applyInfo: {}".format(applyInfo))
+   executiveInfo = info.get_executive_info()
    dataScienceCourses = executiveInfo.read_category_objs('Data Science')
    print("Date science info found: {}".format(len(dataScienceCourses)))
    aiCourse = executiveInfo.read_course_info_by_code('ISSM', 'Artificial Intelligence')
    print("AI course info found: {}".format(aiCourse['overview']['full_name']))
    mrCourse = executiveInfo.read_course_info_by_name('Machine Reasoning')
    print("MR course info found: {}".format(mrCourse['overview']['full_name']))
-   stackableInfo = StackableProgrammeInfo()
+   stackableInfo = info.get_stackable_info()
    #stackableInfo.update_course_code(executiveInfo)
    ai_cert_list = stackableInfo.read_cert_list_info("Artificial Intelligence")
    print("AI cert list: {}".format(len(ai_cert_list)))

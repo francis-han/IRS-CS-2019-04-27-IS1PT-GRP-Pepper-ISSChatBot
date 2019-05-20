@@ -56,7 +56,7 @@ You can inspect our DialogFlow agent by importing the zip file ISS-AutoBot.zip t
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-`<Github File Link>` : <https://github.com/francis-han/IRS-RS-2019-03-09-IS1PT-GRP-Pepper-PatientMatchingSystem/blob/master/ProjectReport/Project%20Report%20V2.pdf>
+`<Github File Link>` : <https://github.com/francis-han/IRS-CS-2019-04-27-IS1PT-GRP-Pepper-ISSChatBot/blob/master/ProjectReport/Project%20Report%20V2.pdf>
 
 
 

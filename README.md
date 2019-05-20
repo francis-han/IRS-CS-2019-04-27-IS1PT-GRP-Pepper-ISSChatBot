@@ -37,12 +37,12 @@ This project gives the team an opportunity to convert our learning into practica
 
 ### [ * ] Recommended to use Google Chrome
 
-# Method 1 (running from the cloud)
+#### Method 1 (running from the cloud)
 
 > Download the file “iss_autobot_agent.html” into the local computer folder from https://github.com/francis-han/Dialogflow-Project/blob/master/SourceCodes/ISS-AutoBot.zip. Open “iss_autobot_agent.html” using the Chrome browser. The user can now converse with Chatbot using text messages.
 You can inspect our DialogFlow agent by importing the zip file ISS-AutoBot.zip to DialogFlow
 
-# Method 2 (In case Method 1 is not working-run from local server)
+#### Method 2 (In case Method 1 is not working-run from local server)
 
 >Login to your DialogFlow account and import the zip file as follow:
 1.	Click on the gear icon settings next to the agent name in the left menu.

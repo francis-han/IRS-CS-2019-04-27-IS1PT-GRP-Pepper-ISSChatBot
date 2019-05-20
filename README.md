@@ -33,7 +33,7 @@ This project gives the team an opportunity to convert our learning into practica
 ---
 ## SECTION 5 : USER GUIDE
 
-`<Github File Link>` : <https://github.com/francis-han/IRS-RS-2019-03-09-IS1PT-GRP-Pepper-PatientMatchingSystem/blob/master/UserGuide/Users%20Manual_Patient%20Matching.docx>
+`<Github File Link>` : <https://github.com/francis-han/IRS-CS-2019-04-27-IS1PT-GRP-Pepper-ISSChatBot/tree/master/UserGuide>
 
 ### [ * ] Recommended to use Google Chrome
 

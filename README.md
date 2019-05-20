@@ -59,11 +59,4 @@ You can inspect our DialogFlow agent by importing the zip file ISS-AutoBot.zip t
 `<Github File Link>` : <https://github.com/francis-han/IRS-RS-2019-03-09-IS1PT-GRP-Pepper-PatientMatchingSystem/blob/master/ProjectReport/Project%20Report%20V2.pdf>
 
 
----
-## SECTION 7 : MISCELLANEOUS
-
-### Test Scenario
-
-<img src="Miscellaneous/TestResult.gif"
-     style="float: left; margin-right: 0px;" />
 

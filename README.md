@@ -37,19 +37,22 @@ This project gives the team an opportunity to convert our learning into practica
 
 ### [ * ] In order to run the system, you need Java 8 or later version.
 
-> Download this file from https://github.com/francis-han/IRS-RS-2019-03-09-IS1PT-GRP-Pepper-PatientMatchingSystem/tree/master/SystemCodes/Submission/IRS-RS-2019-03-09-IS1PT-GRP-Pepper-PatientMatchingSystem.zip
+> Method 1 (running from the cloud)
 
-> The file contains both executable jar and db files.
+> Download the file “iss_autobot_agent.html” into the local computer folder from https://github.com/francis-han/Dialogflow-Project/blob/master/SourceCodes/ISS-AutoBot.zip. Open “iss_autobot_agent.html” using the Chrome browser. The user can now converse with Chatbot using text messages.
 
-> Unzip the zip file, there will be a folder named "rs-patient-matching" generated.
+> You can inspect our DialogFlow agent by importing the zip file ISS-AutoBot.zip to DialogFlow
 
-> Open cmd/bash window, go to the above "rs-patient-matching" folder, eg: cd C:\Users\ Desktop\rs-patient-matching\
+> Method 2 (In case Method 1 is not working-run from local server)
 
-> Run command: java -jar rs-patient-matching-0.1.0.jar
+> Login to your DialogFlow account and import the zip file as follow:
+1.	Click on the gear icon settings next to the agent name in the left menu.
+2.	Click on the Export and Import tab.
+3.	Click IMPORT FROM ZIP.
+4.	Navigate to and open the ZIP file you want to import.
+5.	Type "IMPORT" into the text field to confirm.
+6.	Click IMPORT.
 
-> Open link: http://localhost:8090/ in browser.
-
-> To run our system, type the command “java -jar rs-patient-matching-0.1.0.jar”.
 
 > **Open your preferred browser and go to the URL** “http://localhost:8090/”
 

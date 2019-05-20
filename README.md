@@ -19,7 +19,7 @@ This project gives the team an opportunity to convert our learning into practica
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
 | CAO LIANG            | A0012884E | Architect, Python Library, JSON Files, and Integration                   | e0384184@u.nus.edu |
-| GENG LIANGYU         | A0195278M | Web Deployment using Heroku, GUI creation                                | e0384909@u.nus.edu |
+| GENG LIANGYU         | A0195278M | Web Deployment using Heroku, GUI creation, and Integration               | e0384909@u.nus.edu |
 | HAN DONGCHOU FRANCIS | A0195414A | Team Lead, Documentation, and Submission                                 | e0385045@u.nus.edu |
 | ONG BOON PING        | A0195172B | DialogFlow Setup, Python main program                                    | e0384803@u.nus.edu |
 | TAN CHIN GEE         | A0195296M | DialogFlow Configuration, Testing and Documentation                      | e0384927@u.nus.edu |
